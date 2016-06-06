@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+   Licensed to the Apache Software Foundation (ASF) under one
+   or more contributor license agreements.  See the NOTICE file
+   distributed with this work for additional information
+   regarding copyright ownership.  The ASF licenses this file
+   to you under the Apache License, Version 2.0 (the
+   "License"); you may not use this file except in compliance
+   with the License.  You may obtain a copy of the License at
+
+     http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing,
+   software distributed under the License is distributed on an
+   "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+   KIND, either express or implied.  See the License for the
+   specific language governing permissions and limitations
+   under the License.    
+-->
+<ivy-module version="2.0" xmlns:maven="http://ant.apache.org/ivy/maven">
+  <info organisation="org.apache.solr" module="core" revision="working@dwarf" status="integration" publication="20150508024328"/>
+  
+  <configurations defaultconfmapping="compile->master;compile.hadoop->master;test->master;test.DfsMiniCluster->master;test.MiniKdc->master">
+    <!-- artifacts in the "compile" and "compile.hadoop" configurations will go into solr/core/lib/ -->
+    <conf name="compile" transitive="false"/>
+    <conf name="compile.hadoop" transitive="false"/>
+    <!-- artifacts in the "test", "test.DfsMiniCluster", and "test.MiniKdc" configuration will go into solr/core/test-lib/ -->
+    <conf name="test" transitive="false"/>
+    <conf name="test.DfsMiniCluster" transitive="false"/>
+    <conf name="test.MiniKdc" transitive="false"/>
+  </configurations>
+
+  <dependencies>
+    <dependency org="commons-codec" name="commons-codec" rev="1.10" conf="compile"/>
+    <dependency org="commons-fileupload" name="commons-fileupload" rev="1.2.1" conf="compile"/>
+    <dependency org="commons-cli" name="commons-cli" rev="1.2" conf="compile"/>
+    <dependency org="commons-lang" name="commons-lang" rev="2.6" conf="compile"/>
+    <dependency org="com.google.guava" name="guava" rev="14.0.1" conf="compile"/>
+    <dependency org="com.spatial4j" name="spatial4j" rev="0.4.1" conf="compile"/>
+    <dependency org="org.antlr" name="antlr-runtime" rev="3.5" conf="compile"/>
+    <dependency org="org.apache.commons" name="commons-math3" rev="3.4.1" conf="test"/>
+    <dependency org="org.ow2.asm" name="asm" rev="4.1" conf="compile"/>
+    <dependency org="org.ow2.asm" name="asm-commons" rev="4.1" conf="compile"/>
+    <dependency org="org.restlet.jee" name="org.restlet" rev="2.3.0" conf="compile"/>
+    <dependency org="org.restlet.jee" name="org.restlet.ext.servlet" rev="2.3.0" conf="compile"/>
+    <dependency org="joda-time" name="joda-time" rev="2.2" conf="compile"/>
+    <dependency org="dom4j" name="dom4j" rev="1.6.1" conf="compile"/>
+    <dependency org="com.carrotsearch" name="hppc" rev="0.5.2" conf="compile"/>
+    <dependency org="log4j" name="log4j" rev="1.2.17" conf="compile"/>
+    <dependency org="org.slf4j" name="slf4j-log4j12" rev="1.7.7" conf="compile"/>
+
+    <dependency org="org.easymock" name="easymock" rev="3.0" conf="test"/>
+    <dependency org="cglib" name="cglib-nodep" rev="2.2" conf="test"/>
+    <dependency org="org.objenesis" name="objenesis" rev="1.2" conf="test"/>
+    <dependency org="org.slf4j" name="jcl-over-slf4j" rev="1.7.7" conf="test"/>
+
+    <dependency org="org.apache.hadoop" name="hadoop-common" rev="2.6.0" conf="compile.hadoop"/>
+    <!--
+      hadoop-hdfs, hadoop-annotations and hadoop-auth are runtime dependencies,
+      so even though they are not compile-time dependencies, they are included
+      here as such so that they are included in the runtime distribution.
+     -->
+    <dependency org="org.apache.hadoop" name="hadoop-hdfs" rev="2.6.0" conf="compile.hadoop"/>
+    <dependency org="org.apache.hadoop" name="hadoop-annotations" rev="2.6.0" conf="compile.hadoop"/>
+    <dependency org="org.apache.hadoop" name="hadoop-auth" rev="2.6.0" conf="compile.hadoop"/>
+    <dependency org="commons-configuration" name="commons-configuration" rev="1.6" conf="compile.hadoop"/>
+    <dependency org="commons-collections" name="commons-collections" rev="3.2.1" conf="compile.hadoop"/>
+    
+    <dependency org="com.google.protobuf" name="protobuf-java" rev="2.5.0" conf="compile.hadoop"/>
+    <dependency org="com.googlecode.concurrentlinkedhashmap" name="concurrentlinkedhashmap-lru" rev="1.2" conf="compile.hadoop"/>
+    <dependency org="org.htrace" name="htrace-core" rev="3.0.4" conf="compile.hadoop"/>
+    
+    <!-- Hadoop DfsMiniCluster Dependencies-->
+    <dependency org="org.apache.hadoop" name="hadoop-common" rev="2.6.0" conf="test.DfsMiniCluster">
+      <artifact name="hadoop-common" type="test" ext="jar" maven:classifier="tests"/>
+    </dependency>
+    <dependency org="org.apache.hadoop" name="hadoop-hdfs" rev="2.6.0" conf="test.DfsMiniCluster">
+      <artifact name="hadoop-hdfs" type="test" ext="jar" maven:classifier="tests"/>
+    </dependency>
+    <dependency org="org.mortbay.jetty" name="jetty" rev="6.1.26" conf="test.DfsMiniCluster"/>
+    <dependency org="org.mortbay.jetty" name="jetty-util" rev="6.1.26" conf="test.DfsMiniCluster"/>
+    <dependency org="com.sun.jersey" name="jersey-core" rev="1.9" conf="test.DfsMiniCluster"/>
+    <dependency org="com.sun.jersey" name="jersey-server" rev="1.9" conf="test.DfsMiniCluster"/>
+    <dependency org="commons-collections" name="commons-collections" rev="3.2.1" conf="test.DfsMiniCluster"/>
+
+    <!-- Hadoop MiniKdc Dependencies-->
+    <dependency org="org.apache.hadoop" name="hadoop-minikdc" rev="2.6.0" conf="test.MiniKdc"/>
+    <dependency org="org.apache.directory.server" name="apacheds-all" rev="2.0.0-M15" conf="test.MiniKdc"/>
+
+    <!-- StatsComponents percentiles Dependencies-->
+    <dependency org="com.tdunning" name="t-digest" rev="3.1" conf="compile->*"/>
+
+    <!-- StatsComponents HLL Dependencies-->
+    <dependency org="net.agkn" name="hll" rev="1.6.0" conf="compile->*"/>
+    <dependency org="it.unimi.dsi" name="fastutil" rev="6.5.11" conf="compile->*"/>
+
+    <exclude org="*" ext="*" matcher="regexp" type="source|javadoc"/> 
+  </dependencies>
+</ivy-module>

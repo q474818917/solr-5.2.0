@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="org.apache.lucene"
+		module="analyzers-morfologik"
+		revision="working@dwarf"
+		conf="compile"
+		confs="compile"
+		date="20160603183932"/>
+	<dependencies>
+		<module organisation="org.carrot2" name="morfologik-polish">
+			<revision name="1.7.1" status="release" pubdate="20130716215600" resolver="public" artresolver="main" homepage="" downloaded="false" searched="false" default="false" conf="master" position="0">
+				<metadata-artifact status="no" details="" size="5328" time="0" location="C:\Users\jiyu\.ivy2\cache\org.carrot2\morfologik-polish\ivy-1.7.1.xml" searched="false" original-local-location="C:\Users\jiyu\.ivy2\cache\org.carrot2\morfologik-polish\ivy-1.7.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/carrot2/morfologik-polish/1.7.1/morfologik-polish-1.7.1.pom"/>
+				<caller organisation="org.apache.lucene" name="analyzers-morfologik" conf="compile" rev="1.7.1" rev-constraint-default="1.7.1" rev-constraint-dynamic="1.7.1" callerrev="working@dwarf"/>
+				<artifacts>
+					<artifact name="morfologik-polish" type="jar" ext="jar" status="no" details="" size="1947259" time="0" location="C:\Users\jiyu\.ivy2\cache\org.carrot2\morfologik-polish\jars\morfologik-polish-1.7.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/carrot2/morfologik-polish/1.7.1/morfologik-polish-1.7.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.carrot2" name="morfologik-stemming">
+			<revision name="1.7.1" status="release" pubdate="20130716215520" resolver="public" artresolver="main" homepage="" downloaded="false" searched="false" default="false" conf="master" position="2">
+				<metadata-artifact status="no" details="" size="5555" time="0" location="C:\Users\jiyu\.ivy2\cache\org.carrot2\morfologik-stemming\ivy-1.7.1.xml" searched="false" original-local-location="C:\Users\jiyu\.ivy2\cache\org.carrot2\morfologik-stemming\ivy-1.7.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/carrot2/morfologik-stemming/1.7.1/morfologik-stemming-1.7.1.pom"/>
+				<caller organisation="org.apache.lucene" name="analyzers-morfologik" conf="compile" rev="1.7.1" rev-constraint-default="1.7.1" rev-constraint-dynamic="1.7.1" callerrev="working@dwarf"/>
+				<artifacts>
+					<artifact name="morfologik-stemming" type="jar" ext="jar" status="no" details="" size="36198" time="0" location="C:\Users\jiyu\.ivy2\cache\org.carrot2\morfologik-stemming\jars\morfologik-stemming-1.7.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/carrot2/morfologik-stemming/1.7.1/morfologik-stemming-1.7.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.carrot2" name="morfologik-fsa">
+			<revision name="1.7.1" status="release" pubdate="20130716215511" resolver="public" artresolver="main" homepage="" downloaded="false" searched="false" default="false" conf="master" position="1">
+				<metadata-artifact status="no" details="" size="5135" time="0" location="C:\Users\jiyu\.ivy2\cache\org.carrot2\morfologik-fsa\ivy-1.7.1.xml" searched="false" original-local-location="C:\Users\jiyu\.ivy2\cache\org.carrot2\morfologik-fsa\ivy-1.7.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/carrot2/morfologik-fsa/1.7.1/morfologik-fsa-1.7.1.pom"/>
+				<caller organisation="org.apache.lucene" name="analyzers-morfologik" conf="compile" rev="1.7.1" rev-constraint-default="1.7.1" rev-constraint-dynamic="1.7.1" callerrev="working@dwarf"/>
+				<artifacts>
+					<artifact name="morfologik-fsa" type="jar" ext="jar" status="no" details="" size="54042" time="0" location="C:\Users\jiyu\.ivy2\cache\org.carrot2\morfologik-fsa\jars\morfologik-fsa-1.7.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/carrot2/morfologik-fsa/1.7.1/morfologik-fsa-1.7.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="org.apache.solr"
+		module="core"
+		revision="working@dwarf"
+		conf="test.DfsMiniCluster"
+		confs="test, test.DfsMiniCluster, test.MiniKdc"
+		date="20160603183949"/>
+	<dependencies>
+		<module organisation="org.apache.hadoop" name="hadoop-hdfs">
+			<revision name="2.6.0" status="release" pubdate="20141114064150" resolver="public" artresolver="main" homepage="" downloaded="false" searched="false" default="false" conf="master" position="1">
+				<metadata-artifact status="no" details="" size="49413" time="0" location="C:\Users\jiyu\.ivy2\cache\org.apache.hadoop\hadoop-hdfs\ivy-2.6.0.xml" searched="false" original-local-location="C:\Users\jiyu\.ivy2\cache\org.apache.hadoop\hadoop-hdfs\ivy-2.6.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-hdfs/2.6.0/hadoop-hdfs-2.6.0.pom"/>
+				<caller organisation="org.apache.solr" name="core" conf="test.DfsMiniCluster" rev="2.6.0" rev-constraint-default="2.6.0" rev-constraint-dynamic="2.6.0" callerrev="working@dwarf"/>
+				<artifacts>
+					<artifact name="hadoop-hdfs" type="test" ext="jar" extra-classifier="tests" status="no" details="" size="3029369" time="0" location="C:\Users\jiyu\.ivy2\cache\org.apache.hadoop\hadoop-hdfs\tests\hadoop-hdfs-2.6.0-tests.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-hdfs/2.6.0/hadoop-hdfs-2.6.0-tests.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.hadoop" name="hadoop-common">
+			<revision name="2.6.0" status="release" pubdate="20141114063736" resolver="public" artresolver="main" homepage="" downloaded="false" searched="false" default="false" conf="master" position="0">
+				<metadata-artifact status="no" details="" size="51916" time="0" location="C:\Users\jiyu\.ivy2\cache\org.apache.hadoop\hadoop-common\ivy-2.6.0.xml" searched="false" original-local-location="C:\Users\jiyu\.ivy2\cache\org.apache.hadoop\hadoop-common\ivy-2.6.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-common/2.6.0/hadoop-common-2.6.0.pom"/>
+				<caller organisation="org.apache.solr" name="core" conf="test.DfsMiniCluster" rev="2.6.0" rev-constraint-default="2.6.0" rev-constraint-dynamic="2.6.0" callerrev="working@dwarf"/>
+				<artifacts>
+					<artifact name="hadoop-common" type="test" ext="jar" extra-classifier="tests" status="no" details="" size="1757298" time="0" location="C:\Users\jiyu\.ivy2\cache\org.apache.hadoop\hadoop-common\tests\hadoop-common-2.6.0-tests.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-common/2.6.0/hadoop-common-2.6.0-tests.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.sun.jersey" name="jersey-server">
+			<revision name="1.9" status="release" pubdate="20110902191728" resolver="default" artresolver="main" homepage="" downloaded="false" searched="false" default="false" conf="master" position="5">
+				<metadata-artifact status="no" details="" size="6502" time="0" location="C:\Users\jiyu\.ivy2\cache\com.sun.jersey\jersey-server\ivy-1.9.xml" searched="false" original-local-location="C:\Users\jiyu\.ivy2\cache\com.sun.jersey\jersey-server\ivy-1.9.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/sun/jersey/jersey-server/1.9/jersey-server-1.9.pom"/>
+				<caller organisation="org.apache.solr" name="core" conf="test.DfsMiniCluster" rev="1.9" rev-constraint-default="1.9" rev-constraint-dynamic="1.9" callerrev="working@dwarf"/>
+				<artifacts>
+					<artifact name="jersey-server" type="bundle" ext="jar" status="no" details="" size="713089" time="0" location="C:\Users\jiyu\.ivy2\cache\com.sun.jersey\jersey-server\bundles\jersey-server-1.9.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/sun/jersey/jersey-server/1.9/jersey-server-1.9.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.sun.jersey" name="jersey-core">
+			<revision name="1.9" status="release" pubdate="20110902191655" resolver="default" artresolver="main" homepage="" downloaded="false" searched="false" default="false" conf="master" position="4">
+				<metadata-artifact status="no" details="" size="5653" time="0" location="C:\Users\jiyu\.ivy2\cache\com.sun.jersey\jersey-core\ivy-1.9.xml" searched="false" original-local-location="C:\Users\jiyu\.ivy2\cache\com.sun.jersey\jersey-core\ivy-1.9.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/sun/jersey/jersey-core/1.9/jersey-core-1.9.pom"/>
+				<caller organisation="org.apache.solr" name="core" conf="test.DfsMiniCluster" rev="1.9" rev-constraint-default="1.9" rev-constraint-dynamic="1.9" callerrev="working@dwarf"/>
+				<artifacts>
+					<artifact name="jersey-core" type="bundle" ext="jar" status="no" details="" size="458739" time="0" location="C:\Users\jiyu\.ivy2\cache\com.sun.jersey\jersey-core\bundles\jersey-core-1.9.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/sun/jersey/jersey-core/1.9/jersey-core-1.9.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.mortbay.jetty" name="jetty">
+			<revision name="6.1.26" status="release" pubdate="20101111054054" resolver="default" artresolver="main" homepage="" downloaded="false" searched="false" default="false" conf="master" position="2">
+				<metadata-artifact status="no" details="" size="7446" time="0" location="C:\Users\jiyu\.ivy2\cache\org.mortbay.jetty\jetty\ivy-6.1.26.xml" searched="false" original-local-location="C:\Users\jiyu\.ivy2\cache\org.mortbay.jetty\jetty\ivy-6.1.26.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/mortbay/jetty/jetty/6.1.26/jetty-6.1.26.pom"/>
+				<caller organisation="org.apache.solr" name="core" conf="test.DfsMiniCluster" rev="6.1.26" rev-constraint-default="6.1.26" rev-constraint-dynamic="6.1.26" callerrev="working@dwarf"/>
+				<artifacts>
+					<artifact name="jetty" type="jar" ext="jar" status="no" details="" size="539912" time="0" location="C:\Users\jiyu\.ivy2\cache\org.mortbay.jetty\jetty\jars\jetty-6.1.26.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/mortbay/jetty/jetty/6.1.26/jetty-6.1.26.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.mortbay.jetty" name="jetty-util">
+			<revision name="6.1.26" status="release" pubdate="20101111053810" resolver="default" artresolver="main" homepage="" downloaded="false" searched="false" default="false" conf="master" position="3">
+				<metadata-artifact status="no" details="" size="7393" time="0" location="C:\Users\jiyu\.ivy2\cache\org.mortbay.jetty\jetty-util\ivy-6.1.26.xml" searched="false" original-local-location="C:\Users\jiyu\.ivy2\cache\org.mortbay.jetty\jetty-util\ivy-6.1.26.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/mortbay/jetty/jetty-util/6.1.26/jetty-util-6.1.26.pom"/>
+				<caller organisation="org.apache.solr" name="core" conf="test.DfsMiniCluster" rev="6.1.26" rev-constraint-default="6.1.26" rev-constraint-dynamic="6.1.26" callerrev="working@dwarf"/>
+				<artifacts>
+					<artifact name="jetty-util" type="jar" ext="jar" status="no" details="" size="177131" time="0" location="C:\Users\jiyu\.ivy2\cache\org.mortbay.jetty\jetty-util\jars\jetty-util-6.1.26.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/mortbay/jetty/jetty-util/6.1.26/jetty-util-6.1.26.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-collections" name="commons-collections">
+			<revision name="3.2.1" status="release" pubdate="20080415090924" resolver="default" artresolver="main" homepage="http://commons.apache.org/collections/" downloaded="false" searched="false" default="false" conf="master" position="6">
+				<metadata-artifact status="no" details="" size="4929" time="0" location="C:\Users\jiyu\.ivy2\cache\commons-collections\commons-collections\ivy-3.2.1.xml" searched="false" original-local-location="C:\Users\jiyu\.ivy2\cache\commons-collections\commons-collections\ivy-3.2.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.pom"/>
+				<caller organisation="org.apache.solr" name="core" conf="test.DfsMiniCluster" rev="3.2.1" rev-constraint-default="3.2.1" rev-constraint-dynamic="3.2.1" callerrev="working@dwarf"/>
+				<artifacts>
+					<artifact name="commons-collections" type="jar" ext="jar" status="no" details="" size="575389" time="0" location="C:\Users\jiyu\.ivy2\cache\commons-collections\commons-collections\jars\commons-collections-3.2.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

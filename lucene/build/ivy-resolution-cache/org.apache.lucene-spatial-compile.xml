@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="org.apache.lucene"
+		module="spatial"
+		revision="working@dwarf"
+		conf="compile"
+		confs="compile"
+		date="20160603183941"/>
+	<dependencies>
+		<module organisation="com.spatial4j" name="spatial4j">
+			<revision name="0.4.1" status="release" pubdate="20140219141135" resolver="default" artresolver="main" homepage="https://github.com/spatial4j/spatial4j" downloaded="false" searched="false" default="false" conf="master" position="0">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="4237" time="0" location="C:\Users\jiyu\.ivy2\cache\com.spatial4j\spatial4j\ivy-0.4.1.xml" searched="false" original-local-location="C:\Users\jiyu\.ivy2\cache\com.spatial4j\spatial4j\ivy-0.4.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/spatial4j/spatial4j/0.4.1/spatial4j-0.4.1.pom"/>
+				<caller organisation="org.apache.lucene" name="spatial" conf="compile" rev="0.4.1" rev-constraint-default="0.4.1" rev-constraint-dynamic="0.4.1" callerrev="working@dwarf"/>
+				<artifacts>
+					<artifact name="spatial4j" type="bundle" ext="jar" status="no" details="" size="102177" time="0" location="C:\Users\jiyu\.ivy2\cache\com.spatial4j\spatial4j\bundles\spatial4j-0.4.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/spatial4j/spatial4j/0.4.1/spatial4j-0.4.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

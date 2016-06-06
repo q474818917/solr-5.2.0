@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="org.apache.lucene"
+		module="expressions"
+		revision="working@dwarf"
+		conf="compile"
+		confs="compile"
+		date="20160603183938"/>
+	<dependencies>
+		<module organisation="org.ow2.asm" name="asm-commons">
+			<revision name="4.1" status="release" pubdate="20121014233823" resolver="default" artresolver="main" homepage="" downloaded="false" searched="false" default="false" conf="master" position="2">
+				<metadata-artifact status="no" details="" size="4619" time="0" location="C:\Users\jiyu\.ivy2\cache\org.ow2.asm\asm-commons\ivy-4.1.xml" searched="false" original-local-location="C:\Users\jiyu\.ivy2\cache\org.ow2.asm\asm-commons\ivy-4.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/ow2/asm/asm-commons/4.1/asm-commons-4.1.pom"/>
+				<caller organisation="org.apache.lucene" name="expressions" conf="compile" rev="4.1" rev-constraint-default="4.1" rev-constraint-dynamic="4.1" callerrev="working@dwarf"/>
+				<artifacts>
+					<artifact name="asm-commons" type="jar" ext="jar" status="no" details="" size="38090" time="0" location="C:\Users\jiyu\.ivy2\cache\org.ow2.asm\asm-commons\jars\asm-commons-4.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/ow2/asm/asm-commons/4.1/asm-commons-4.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.ow2.asm" name="asm">
+			<revision name="4.1" status="release" pubdate="20121014233745" resolver="default" artresolver="main" homepage="" downloaded="false" searched="false" default="false" conf="master" position="1">
+				<metadata-artifact status="no" details="" size="3958" time="0" location="C:\Users\jiyu\.ivy2\cache\org.ow2.asm\asm\ivy-4.1.xml" searched="false" original-local-location="C:\Users\jiyu\.ivy2\cache\org.ow2.asm\asm\ivy-4.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/ow2/asm/asm/4.1/asm-4.1.pom"/>
+				<caller organisation="org.apache.lucene" name="expressions" conf="compile" rev="4.1" rev-constraint-default="4.1" rev-constraint-dynamic="4.1" callerrev="working@dwarf"/>
+				<artifacts>
+					<artifact name="asm" type="jar" ext="jar" status="no" details="" size="47359" time="0" location="C:\Users\jiyu\.ivy2\cache\org.ow2.asm\asm\jars\asm-4.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/ow2/asm/asm/4.1/asm-4.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.antlr" name="antlr-runtime">
+			<revision name="3.5" status="release" pubdate="20130105113525" resolver="default" artresolver="main" homepage="http://www.antlr.org" downloaded="false" searched="false" default="false" conf="master" position="0">
+				<metadata-artifact status="no" details="" size="5837" time="0" location="C:\Users\jiyu\.ivy2\cache\org.antlr\antlr-runtime\ivy-3.5.xml" searched="false" original-local-location="C:\Users\jiyu\.ivy2\cache\org.antlr\antlr-runtime\ivy-3.5.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/antlr/antlr-runtime/3.5/antlr-runtime-3.5.pom"/>
+				<caller organisation="org.apache.lucene" name="expressions" conf="compile" rev="3.5" rev-constraint-default="3.5" rev-constraint-dynamic="3.5" callerrev="working@dwarf"/>
+				<artifacts>
+					<artifact name="antlr-runtime" type="jar" ext="jar" status="no" details="" size="167735" time="0" location="C:\Users\jiyu\.ivy2\cache\org.antlr\antlr-runtime\jars\antlr-runtime-3.5.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/antlr/antlr-runtime/3.5/antlr-runtime-3.5.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="org.apache.solr"
+		module="extraction"
+		revision="working@dwarf"
+		conf="compile"
+		confs="compile"
+		date="20160603184001"/>
+	<dependencies>
+		<module organisation="xerces" name="xercesImpl">
+			<revision name="2.9.1" status="release" pubdate="20081002061919" resolver="default" artresolver="main" homepage="http://xerces.apache.org/xerces2-j" downloaded="false" searched="false" default="false" conf="master" position="32">
+				<metadata-artifact status="no" details="" size="3169" time="0" location="C:\Users\jiyu\.ivy2\cache\xerces\xercesImpl\ivy-2.9.1.xml" searched="false" original-local-location="C:\Users\jiyu\.ivy2\cache\xerces\xercesImpl\ivy-2.9.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/xerces/xercesImpl/2.9.1/xercesImpl-2.9.1.pom"/>
+				<caller organisation="org.apache.solr" name="extraction" conf="compile" rev="2.9.1" rev-constraint-default="2.9.1" rev-constraint-dynamic="2.9.1" callerrev="working@dwarf"/>
+				<artifacts>
+					<artifact name="xercesImpl" type="jar" ext="jar" status="no" details="" size="1229125" time="0" location="C:\Users\jiyu\.ivy2\cache\xerces\xercesImpl\jars\xercesImpl-2.9.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/xerces/xercesImpl/2.9.1/xercesImpl-2.9.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.ibm.icu" name="icu4j">
+			<revision name="54.1" status="release" pubdate="20141001012113" resolver="public" artresolver="main" homepage="http://icu-project.org/" downloaded="false" searched="false" default="false" conf="master" position="31">
+				<license name="ICU License" url="http://source.icu-project.org/repos/icu/icu/trunk/license.html"/>
+				<metadata-artifact status="no" details="" size="2672" time="0" location="C:\Users\jiyu\.ivy2\cache\com.ibm.icu\icu4j\ivy-54.1.xml" searched="false" original-local-location="C:\Users\jiyu\.ivy2\cache\com.ibm.icu\icu4j\ivy-54.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/ibm/icu/icu4j/54.1/icu4j-54.1.pom"/>
+				<caller organisation="org.apache.solr" name="extraction" conf="compile" rev="54.1" rev-constraint-default="54.1" rev-constraint-dynamic="54.1" callerrev="working@dwarf"/>
+				<artifacts>
+					<artifact name="icu4j" type="jar" ext="jar" status="no" details="" size="11126867" time="0" location="C:\Users\jiyu\.ivy2\cache\com.ibm.icu\icu4j\jars\icu4j-54.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/ibm/icu/icu4j/54.1/icu4j-54.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.tika" name="tika-java7">
+			<revision name="1.7" status="release" pubdate="20150110053640" resolver="public" artresolver="main" homepage="http://tika.apache.org/" downloaded="false" searched="false" default="false" conf="master" position="3">
+				<metadata-artifact status="no" details="" size="5632" time="0" location="C:\Users\jiyu\.ivy2\cache\org.apache.tika\tika-java7\ivy-1.7.xml" searched="false" original-local-location="C:\Users\jiyu\.ivy2\cache\org.apache.tika\tika-java7\ivy-1.7.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/tika/tika-java7/1.7/tika-java7-1.7.pom"/>
+				<caller organisation="org.apache.solr" name="extraction" conf="compile" rev="1.7" rev-constraint-default="1.7" rev-constraint-dynamic="1.7" callerrev="working@dwarf"/>
+				<artifacts>
+					<artifact name="tika-java7" type="bundle" ext="jar" status="no" details="" size="11367" time="0" location="C:\Users\jiyu\.ivy2\cache\org.apache.tika\tika-java7\bundles\tika-java7-1.7.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/tika/tika-java7/1.7/tika-java7-1.7.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.tika" name="tika-xmp">
+			<revision name="1.7" status="release" pubdate="20150110053222" resolver="public" artresolver="main" homepage="http://tika.apache.org/" downloaded="false" searched="false" default="false" conf="master" position="2">
+				<metadata-artifact status="no" details="" size="5633" time="0" location="C:\Users\jiyu\.ivy2\cache\org.apache.tika\tika-xmp\ivy-1.7.xml" searched="false" original-local-location="C:\Users\jiyu\.ivy2\cache\org.apache.tika\tika-xmp\ivy-1.7.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/tika/tika-xmp/1.7/tika-xmp-1.7.pom"/>
+				<caller organisation="org.apache.solr" name="extraction" conf="compile" rev="1.7" rev-constraint-default="1.7" rev-constraint-dynamic="1.7" callerrev="working@dwarf"/>
+				<artifacts>
+					<artifact name="tika-xmp" type="bundle" ext="jar" status="no" details="" size="31816" time="0" location="C:\Users\jiyu\.ivy2\cache\org.apache.tika\tika-xmp\bundles\tika-xmp-1.7.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/tika/tika-xmp/1.7/tika-xmp-1.7.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.tika" name="tika-parsers">
+			<revision name="1.7" status="release" pubdate="20150110053048" resolver="default" artresolver="main" homepage="http://tika.apache.org/" downloaded="false" searched="false" default="false" conf="master" position="1">
+				<metadata-artifact status="no" details="" size="10007" time="0" location="C:\Users\jiyu\.ivy2\cache\org.apache.tika\tika-parsers\ivy-1.7.xml" searched="false" original-local-location="C:\Users\jiyu\.ivy2\cache\org.apache.tika\tika-parsers\ivy-1.7.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/tika/tika-parsers/1.7/tika-parsers-1.7.pom"/>
+				<caller organisation="org.apache.solr" name="extraction" conf="compile" rev="1.7" rev-constraint-default="1.7" rev-constraint-dynamic="1.7" callerrev="working@dwarf"/>
+				<artifacts>
+					<artifact name="tika-parsers" type="bundle" ext="jar" status="no" details="" size="583338" time="0" location="C:\Users\jiyu\.ivy2\cache\org.apache.tika\tika-parsers\bundles\tika-parsers-1.7.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/tika/tika-parsers/1.7/tika-parsers-1.7.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.pff" name="java-libpst">
+			<revision name="0.8.1" status="release" pubdate="20140622233103" resolver="default" artresolver="main" homepage="https://code.google.com/p/java-libpst/" downloaded="false" searched="false" default="false" conf="master" position="29">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3345" time="0" location="C:\Users\jiyu\.ivy2\cache\com.pff\java-libpst\ivy-0.8.1.xml" searched="false" original-local-location="C:\Users\jiyu\.ivy2\cache\com.pff\java-libpst\ivy-0.8.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/pff/java-libpst/0.8.1/java-libpst-0.8.1.pom"/>
+				<caller organisation="org.apache.solr" name="extraction" conf="compile" rev="0.8.1" rev-constraint-default="0.8.1" rev-constraint-dynamic="0.8.1" callerrev="working@dwarf"/>
+				<artifacts>
+					<artifact name="java-libpst" type="jar" ext="jar" status="no" details="" size="85452" time="0" location="C:\Users\jiyu\.ivy2\cache\com.pff\java-libpst\jars\java-libpst-0.8.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/pff/java-libpst/0.8.1/java-libpst-0.8.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.googlecode.juniversalchardet" name="juniversalchardet">
+			<revision name="1.0.3" status="release" pubdate="20110920013824" resolver="default" artresolver="main" homepage="http://juniversalchardet.googlecode.com/" downloaded="false" searched="false" default="false" conf="master" position="26">
+				<license name="Mozilla Public License 1.1 (MPL 1.1)" url="http://www.mozilla.org/MPL/MPL-1.1.html"/>
+				<metadata-artifact status="no" details="" size="2826" time="0" location="C:\Users\jiyu\.ivy2\cache\com.googlecode.juniversalchardet\juniversalchardet\ivy-1.0.3.xml" searched="false" original-local-location="C:\Users\jiyu\.ivy2\cache\com.googlecode.juniversalchardet\juniversalchardet\ivy-1.0.3.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/googlecode/juniversalchardet/juniversalchardet/1.0.3/juniversalchardet-1.0.3.pom"/>
+				<caller organisation="org.apache.solr" name="extraction" conf="compile" rev="1.0.3" rev-constraint-default="1.0.3" rev-constraint-dynamic="1.0.3" callerrev="working@dwarf"/>
+				<artifacts>
+					<artifact name="juniversalchardet" type="jar" ext="jar" status="no" details="" size="220813" time="0" location="C:\Users\jiyu\.ivy2\cache\com.googlecode.juniversalchardet\juniversalchardet\jars\juniversalchardet-1.0.3.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/googlecode/juniversalchardet/juniversalchardet/1.0.3/juniversalchardet-1.0.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="rome" name="rome">
+			<revision name="1.0" status="release" pubdate="20100520084733" resolver="default" artresolver="main" homepage="https://rome.dev.java.net/" downloaded="false" searched="false" default="false" conf="master" position="24">
+				<metadata-artifact status="no" details="" size="3618" time="0" location="C:\Users\jiyu\.ivy2\cache\rome\rome\ivy-1.0.xml" searched="false" original-local-location="C:\Users\jiyu\.ivy2\cache\rome\rome\ivy-1.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/rome/rome/1.0/rome-1.0.pom"/>
+				<caller organisation="org.apache.solr" name="extraction" conf="compile" rev="1.0" rev-constraint-default="1.0" rev-constraint-dynamic="1.0" callerrev="working@dwarf"/>
+				<artifacts>
+					<artifact name="rome" type="jar" ext="jar" status="no" details="" size="219683" time="0" location="C:\Users\jiyu\.ivy2\cache\rome\rome\jars\rome-1.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/rome/rome/1.0/rome-1.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="jdom" name="jdom">
+			<revision name="1.0" status="release" pubdate="20051222202056" resolver="default" artresolver="main" homepage="" downloaded="false" searched="false" default="false" conf="master" position="25">
+				<metadata-artifact status="no" details="" size="2957" time="0" location="C:\Users\jiyu\.ivy2\cache\jdom\jdom\ivy-1.0.xml" searched="false" original-local-location="C:\Users\jiyu\.ivy2\cache\jdom\jdom\ivy-1.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/jdom/jdom/1.0/jdom-1.0.pom"/>
+				<caller organisation="org.apache.solr" name="extraction" conf="compile" rev="1.0" rev-constraint-default="1.0" rev-constraint-dynamic="1.0" callerrev="working@dwarf"/>
+				<artifacts>
+					<artifact name="jdom" type="jar" ext="jar" status="no" details="" size="153253" time="0" location="C:\Users\jiyu\.ivy2\cache\jdom\jdom\jars\jdom-1.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/jdom/jdom/1.0/jdom-1.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="de.l3s.boilerpipe" name="boilerpipe">
+			<revision name="1.1.0" status="release" pubdate="20101104044113" resolver="default" artresolver="main" homepage="http://code.google.com/p/boilerpipe/" downloaded="false" searched="false" default="false" conf="master" position="23">
+				<license name="Apache License 2.0"/>
+				<metadata-artifact status="no" details="" size="3425" time="0" location="C:\Users\jiyu\.ivy2\cache\de.l3s.boilerpipe\boilerpipe\ivy-1.1.0.xml" searched="false" original-local-location="C:\Users\jiyu\.ivy2\cache\de.l3s.boilerpipe\boilerpipe\ivy-1.1.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/de/l3s/boilerpipe/boilerpipe/1.1.0/boilerpipe-1.1.0.pom"/>
+				<caller organisation="org.apache.solr" name="extraction" conf="compile" rev="1.1.0" rev-constraint-default="1.1.0" rev-constraint-dynamic="1.1.0" callerrev="working@dwarf"/>
+				<artifacts>
+					<artifact name="boilerpipe" type="jar" ext="jar" status="no" details="" size="92027" time="0" location="C:\Users\jiyu\.ivy2\cache\de.l3s.boilerpipe\boilerpipe\jars\boilerpipe-1.1.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/de/l3s/boilerpipe/boilerpipe/1.1.0/boilerpipe-1.1.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.drewnoakes" name="metadata-extractor">
+			<revision name="2.6.2" status="release" pubdate="20120720042102" resolver="default" artresolver="main" homepage="http://code.google.com/p/metadata-extractor/" downloaded="false" searched="false" default="false" conf="master" position="22">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3579" time="0" location="C:\Users\jiyu\.ivy2\cache\com.drewnoakes\metadata-extractor\ivy-2.6.2.xml" searched="false" original-local-location="C:\Users\jiyu\.ivy2\cache\com.drewnoakes\metadata-extractor\ivy-2.6.2.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/drewnoakes/metadata-extractor/2.6.2/metadata-extractor-2.6.2.pom"/>
+				<caller organisation="org.apache.solr" name="extraction" conf="compile" rev="2.6.2" rev-constraint-default="2.6.2" rev-constraint-dynamic="2.6.2" callerrev="working@dwarf"/>
+				<artifacts>
+					<artifact name="metadata-extractor" type="jar" ext="jar" status="no" details="" size="211185" time="0" location="C:\Users\jiyu\.ivy2\cache\com.drewnoakes\metadata-extractor\jars\metadata-extractor-2.6.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/drewnoakes/metadata-extractor/2.6.2/metadata-extractor-2.6.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.adobe.xmp" name="xmpcore">
+			<revision name="5.1.2" status="release" pubdate="20120703181504" resolver="default" artresolver="main" homepage="http://www.adobe.com/devnet/xmp.html" downloaded="false" searched="false" default="false" conf="master" position="28">
+				<license name="The BSD License" url="http://www.adobe.com/devnet/xmp/library/eula-xmp-library-java.html"/>
+				<metadata-artifact status="no" details="" size="2654" time="0" location="C:\Users\jiyu\.ivy2\cache\com.adobe.xmp\xmpcore\ivy-5.1.2.xml" searched="false" original-local-location="C:\Users\jiyu\.ivy2\cache\com.adobe.xmp\xmpcore\ivy-5.1.2.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/adobe/xmp/xmpcore/5.1.2/xmpcore-5.1.2.pom"/>
+				<caller organisation="org.apache.solr" name="extraction" conf="compile" rev="5.1.2" rev-constraint-default="5.1.2" rev-constraint-dynamic="5.1.2" callerrev="working@dwarf"/>
+				<artifacts>
+					<artifact name="xmpcore" type="jar" ext="jar" status="no" details="" size="117333" time="0" location="C:\Users\jiyu\.ivy2\cache\com.adobe.xmp\xmpcore\jars\xmpcore-5.1.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/adobe/xmp/xmpcore/5.1.2/xmpcore-5.1.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.googlecode.mp4parser" name="isoparser">
+			<revision name="1.0.2" status="release" pubdate="20140620222925" resolver="default" artresolver="main" homepage="http://code.google.com/p/mp4parser/" downloaded="false" searched="false" default="false" conf="master" position="20">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3676" time="0" location="C:\Users\jiyu\.ivy2\cache\com.googlecode.mp4parser\isoparser\ivy-1.0.2.xml" searched="false" original-local-location="C:\Users\jiyu\.ivy2\cache\com.googlecode.mp4parser\isoparser\ivy-1.0.2.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/googlecode/mp4parser/isoparser/1.0.2/isoparser-1.0.2.pom"/>
+				<caller organisation="org.apache.solr" name="extraction" conf="compile" rev="1.0.2" rev-constraint-default="1.0.2" rev-constraint-dynamic="1.0.2" callerrev="working@dwarf"/>
+				<artifacts>
+					<artifact name="isoparser" type="jar" ext="jar" status="no" details="" size="689486" time="0" location="C:\Users\jiyu\.ivy2\cache\com.googlecode.mp4parser\isoparser\jars\isoparser-1.0.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/googlecode/mp4parser/isoparser/1.0.2/isoparser-1.0.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.aspectj" name="aspectjrt">
+			<revision name="1.8.0" status="release" pubdate="20140418062209" resolver="default" artresolver="main" homepage="http://www.aspectj.org" downloaded="false" searched="false" default="false" conf="master" position="21">
+				<license name="Eclipse Public License - v 1.0" url="http://www.eclipse.org/legal/epl-v10.html"/>
+				<metadata-artifact status="no" details="" size="2601" time="0" location="C:\Users\jiyu\.ivy2\cache\org.aspectj\aspectjrt\ivy-1.8.0.xml" searched="false" original-local-location="C:\Users\jiyu\.ivy2\cache\org.aspectj\aspectjrt\ivy-1.8.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/aspectj/aspectjrt/1.8.0/aspectjrt-1.8.0.pom"/>
+				<caller organisation="org.apache.solr" name="extraction" conf="compile" rev="1.8.0" rev-constraint-default="1.8.0" rev-constraint-dynamic="1.8.0" callerrev="working@dwarf"/>
+				<artifacts>
+					<artifact name="aspectjrt" type="jar" ext="jar" status="no" details="" size="117099" time="0" location="C:\Users\jiyu\.ivy2\cache\org.aspectj\aspectjrt\jars\aspectjrt-1.8.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/aspectj/aspectjrt/1.8.0/aspectjrt-1.8.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.ccil.cowan.tagsoup" name="tagsoup">
+			<revision name="1.2.1" status="release" pubdate="20110823010503" resolver="default" artresolver="main" homepage="http://home.ccil.org/~cowan/XML/tagsoup/" downloaded="false" searched="false" default="false" conf="master" position="19">
+				<license name="Apache License 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3139" time="0" location="C:\Users\jiyu\.ivy2\cache\org.ccil.cowan.tagsoup\tagsoup\ivy-1.2.1.xml" searched="false" original-local-location="C:\Users\jiyu\.ivy2\cache\org.ccil.cowan.tagsoup\tagsoup\ivy-1.2.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.pom"/>
+				<caller organisation="org.apache.solr" name="extraction" conf="compile" rev="1.2.1" rev-constraint-default="1.2.1" rev-constraint-dynamic="1.2.1" callerrev="working@dwarf"/>
+				<artifacts>
+					<artifact name="tagsoup" type="jar" ext="jar" status="no" details="" size="90722" time="0" location="C:\Users\jiyu\.ivy2\cache\org.ccil.cowan.tagsoup\tagsoup\jars\tagsoup-1.2.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.poi" name="poi-ooxml">
+			<revision name="3.11" status="release" pubdate="20141222084345" resolver="default" artresolver="main" homepage="http://poi.apache.org/" downloaded="false" searched="false" default="false" conf="master" position="16">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2928" time="0" location="C:\Users\jiyu\.ivy2\cache\org.apache.poi\poi-ooxml\ivy-3.11.xml" searched="false" original-local-location="C:\Users\jiyu\.ivy2\cache\org.apache.poi\poi-ooxml\ivy-3.11.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/poi/poi-ooxml/3.11/poi-ooxml-3.11.pom"/>
+				<caller organisation="org.apache.solr" name="extraction" conf="compile" rev="3.11" rev-constraint-default="3.11" rev-constraint-dynamic="3.11" callerrev="working@dwarf"/>
+				<artifacts>
+					<artifact name="poi-ooxml" type="jar" ext="jar" status="no" details="" size="1210980" time="0" location="C:\Users\jiyu\.ivy2\cache\org.apache.poi\poi-ooxml\jars\poi-ooxml-3.11.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/poi/poi-ooxml/3.11/poi-ooxml-3.11.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.poi" name="poi-ooxml-schemas">
+			<revision name="3.11" status="release" pubdate="20141222084827" resolver="default" artresolver="main" homepage="http://poi.apache.org/" downloaded="false" searched="false" default="false" conf="master" position="17">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2622" time="0" location="C:\Users\jiyu\.ivy2\cache\org.apache.poi\poi-ooxml-schemas\ivy-3.11.xml" searched="false" original-local-location="C:\Users\jiyu\.ivy2\cache\org.apache.poi\poi-ooxml-schemas\ivy-3.11.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/poi/poi-ooxml-schemas/3.11/poi-ooxml-schemas-3.11.pom"/>
+				<caller organisation="org.apache.solr" name="extraction" conf="compile" rev="3.11" rev-constraint-default="3.11" rev-constraint-dynamic="3.11" callerrev="working@dwarf"/>
+				<artifacts>
+					<artifact name="poi-ooxml-schemas" type="jar" ext="jar" status="no" details="" size="5595829" time="0" location="C:\Users\jiyu\.ivy2\cache\org.apache.poi\poi-ooxml-schemas\jars\poi-ooxml-schemas-3.11.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/poi/poi-ooxml-schemas/3.11/poi-ooxml-schemas-3.11.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.xmlbeans" name="xmlbeans">
+			<revision name="2.6.0" status="release" pubdate="20130606014946" resolver="default" artresolver="main" homepage="http://xmlbeans.apache.org" downloaded="false" searched="false" default="false" conf="master" position="18">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2562" time="0" location="C:\Users\jiyu\.ivy2\cache\org.apache.xmlbeans\xmlbeans\ivy-2.6.0.xml" searched="false" original-local-location="C:\Users\jiyu\.ivy2\cache\org.apache.xmlbeans\xmlbeans\ivy-2.6.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/xmlbeans/xmlbeans/2.6.0/xmlbeans-2.6.0.pom"/>
+				<caller organisation="org.apache.solr" name="extraction" conf="compile" rev="2.6.0" rev-constraint-default="2.6.0" rev-constraint-dynamic="2.6.0" callerrev="working@dwarf"/>
+				<artifacts>
+					<artifact name="xmlbeans" type="jar" ext="jar" status="no" details="" size="2730866" time="0" location="C:\Users\jiyu\.ivy2\cache\org.apache.xmlbeans\xmlbeans\jars\xmlbeans-2.6.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/xmlbeans/xmlbeans/2.6.0/xmlbeans-2.6.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.poi" name="poi-scratchpad">
+			<revision name="3.11" status="release" pubdate="20141222084114" resolver="default" artresolver="main" homepage="http://poi.apache.org/" downloaded="false" searched="false" default="false" conf="master" position="15">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2804" time="0" location="C:\Users\jiyu\.ivy2\cache\org.apache.poi\poi-scratchpad\ivy-3.11.xml" searched="false" original-local-location="C:\Users\jiyu\.ivy2\cache\org.apache.poi\poi-scratchpad\ivy-3.11.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/poi/poi-scratchpad/3.11/poi-scratchpad-3.11.pom"/>
+				<caller organisation="org.apache.solr" name="extraction" conf="compile" rev="3.11" rev-constraint-default="3.11" rev-constraint-dynamic="3.11" callerrev="working@dwarf"/>
+				<artifacts>
+					<artifact name="poi-scratchpad" type="jar" ext="jar" status="no" details="" size="1289561" time="0" location="C:\Users\jiyu\.ivy2\cache\org.apache.poi\poi-scratchpad\jars\poi-scratchpad-3.11.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/poi/poi-scratchpad/3.11/poi-scratchpad-3.11.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.poi" name="poi">
+			<revision name="3.11" status="release" pubdate="20141222083726" resolver="default" artresolver="main" homepage="http://poi.apache.org/" downloaded="false" searched="false" default="false" conf="master" position="14">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3237" time="0" location="C:\Users\jiyu\.ivy2\cache\org.apache.poi\poi\ivy-3.11.xml" searched="false" original-local-location="C:\Users\jiyu\.ivy2\cache\org.apache.poi\poi\ivy-3.11.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/poi/poi/3.11/poi-3.11.pom"/>
+				<caller organisation="org.apache.solr" name="extraction" conf="compile" rev="3.11" rev-constraint-default="3.11" rev-constraint-dynamic="3.11" callerrev="working@dwarf"/>
+				<artifacts>
+					<artifact name="poi" type="jar" ext="jar" status="no" details="" size="2080419" time="0" location="C:\Users\jiyu\.ivy2\cache\org.apache.poi\poi\jars\poi-3.11.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/poi/poi/3.11/poi-3.11.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.bouncycastle" name="bcmail-jdk15">
+			<revision name="1.45" status="release" pubdate="20100111123102" resolver="default" artresolver="main" homepage="http://www.bouncycastle.org/java.html" downloaded="false" searched="false" default="false" conf="master" position="12">
+				<license name="Bouncy Castle Licence" url="http://www.bouncycastle.org/licence.html"/>
+				<metadata-artifact status="no" details="" size="3107" time="0" location="C:\Users\jiyu\.ivy2\cache\org.bouncycastle\bcmail-jdk15\ivy-1.45.xml" searched="false" original-local-location="C:\Users\jiyu\.ivy2\cache\org.bouncycastle\bcmail-jdk15\ivy-1.45.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/bouncycastle/bcmail-jdk15/1.45/bcmail-jdk15-1.45.pom"/>
+				<caller organisation="org.apache.solr" name="extraction" conf="compile" rev="1.45" rev-constraint-default="1.45" rev-constraint-dynamic="1.45" callerrev="working@dwarf"/>
+				<artifacts>
+					<artifact name="bcmail-jdk15" type="jar" ext="jar" status="no" details="" size="229116" time="0" location="C:\Users\jiyu\.ivy2\cache\org.bouncycastle\bcmail-jdk15\jars\bcmail-jdk15-1.45.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/bouncycastle/bcmail-jdk15/1.45/bcmail-jdk15-1.45.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.bouncycastle" name="bcprov-jdk15">
+			<revision name="1.45" status="release" pubdate="20100111123027" resolver="default" artresolver="main" homepage="http://www.bouncycastle.org/java.html" downloaded="false" searched="false" default="false" conf="master" position="13">
+				<license name="Bouncy Castle Licence" url="http://www.bouncycastle.org/licence.html"/>
+				<metadata-artifact status="no" details="" size="2759" time="0" location="C:\Users\jiyu\.ivy2\cache\org.bouncycastle\bcprov-jdk15\ivy-1.45.xml" searched="false" original-local-location="C:\Users\jiyu\.ivy2\cache\org.bouncycastle\bcprov-jdk15\ivy-1.45.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/bouncycastle/bcprov-jdk15/1.45/bcprov-jdk15-1.45.pom"/>
+				<caller organisation="org.apache.solr" name="extraction" conf="compile" rev="1.45" rev-constraint-default="1.45" rev-constraint-dynamic="1.45" callerrev="working@dwarf"/>
+				<artifacts>
+					<artifact name="bcprov-jdk15" type="jar" ext="jar" status="no" details="" size="1663318" time="0" location="C:\Users\jiyu\.ivy2\cache\org.bouncycastle\bcprov-jdk15\jars\bcprov-jdk15-1.45.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/bouncycastle/bcprov-jdk15/1.45/bcprov-jdk15-1.45.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.pdfbox" name="pdfbox">
+			<revision name="1.8.8" status="release" pubdate="20141210014939" resolver="default" artresolver="main" homepage="" downloaded="false" searched="false" default="false" conf="master" position="9">
+				<metadata-artifact status="no" details="" size="4993" time="0" location="C:\Users\jiyu\.ivy2\cache\org.apache.pdfbox\pdfbox\ivy-1.8.8.xml" searched="false" original-local-location="C:\Users\jiyu\.ivy2\cache\org.apache.pdfbox\pdfbox\ivy-1.8.8.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/pdfbox/pdfbox/1.8.8/pdfbox-1.8.8.pom"/>
+				<caller organisation="org.apache.solr" name="extraction" conf="compile" rev="1.8.8" rev-constraint-default="1.8.8" rev-constraint-dynamic="1.8.8" callerrev="working@dwarf"/>
+				<artifacts>
+					<artifact name="pdfbox" type="bundle" ext="jar" status="no" details="" size="4078179" time="0" location="C:\Users\jiyu\.ivy2\cache\org.apache.pdfbox\pdfbox\bundles\pdfbox-1.8.8.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/pdfbox/pdfbox/1.8.8/pdfbox-1.8.8.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.pdfbox" name="jempbox">
+			<revision name="1.8.8" status="release" pubdate="20141210014610" resolver="default" artresolver="main" homepage="" downloaded="false" searched="false" default="false" conf="master" position="11">
+				<metadata-artifact status="no" details="" size="3896" time="0" location="C:\Users\jiyu\.ivy2\cache\org.apache.pdfbox\jempbox\ivy-1.8.8.xml" searched="false" original-local-location="C:\Users\jiyu\.ivy2\cache\org.apache.pdfbox\jempbox\ivy-1.8.8.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/pdfbox/jempbox/1.8.8/jempbox-1.8.8.pom"/>
+				<caller organisation="org.apache.solr" name="extraction" conf="compile" rev="1.8.8" rev-constraint-default="1.8.8" rev-constraint-dynamic="1.8.8" callerrev="working@dwarf"/>
+				<artifacts>
+					<artifact name="jempbox" type="bundle" ext="jar" status="no" details="" size="50975" time="0" location="C:\Users\jiyu\.ivy2\cache\org.apache.pdfbox\jempbox\bundles\jempbox-1.8.8.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/pdfbox/jempbox/1.8.8/jempbox-1.8.8.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.pdfbox" name="fontbox">
+			<revision name="1.8.8" status="release" pubdate="20141210014529" resolver="default" artresolver="main" homepage="http://pdfbox.apache.org/" downloaded="false" searched="false" default="false" conf="master" position="10">
+				<metadata-artifact status="no" details="" size="4062" time="0" location="C:\Users\jiyu\.ivy2\cache\org.apache.pdfbox\fontbox\ivy-1.8.8.xml" searched="false" original-local-location="C:\Users\jiyu\.ivy2\cache\org.apache.pdfbox\fontbox\ivy-1.8.8.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/pdfbox/fontbox/1.8.8/fontbox-1.8.8.pom"/>
+				<caller organisation="org.apache.solr" name="extraction" conf="compile" rev="1.8.8" rev-constraint-default="1.8.8" rev-constraint-dynamic="1.8.8" callerrev="working@dwarf"/>
+				<artifacts>
+					<artifact name="fontbox" type="bundle" ext="jar" status="no" details="" size="218564" time="0" location="C:\Users\jiyu\.ivy2\cache\org.apache.pdfbox\fontbox\bundles\fontbox-1.8.8.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/pdfbox/fontbox/1.8.8/fontbox-1.8.8.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.commons" name="commons-compress">
+			<revision name="1.8.1" status="release" pubdate="20140510031752" resolver="default" artresolver="main" homepage="http://commons.apache.org/proper/commons-compress/" downloaded="false" searched="false" default="false" conf="master" position="8">
+				<metadata-artifact status="no" details="" size="10817" time="0" location="C:\Users\jiyu\.ivy2\cache\org.apache.commons\commons-compress\ivy-1.8.1.xml" searched="false" original-local-location="C:\Users\jiyu\.ivy2\cache\org.apache.commons\commons-compress\ivy-1.8.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/commons/commons-compress/1.8.1/commons-compress-1.8.1.pom"/>
+				<caller organisation="org.apache.solr" name="extraction" conf="compile" rev="1.8.1" rev-constraint-default="1.8.1" rev-constraint-dynamic="1.8.1" callerrev="working@dwarf"/>
+				<artifacts>
+					<artifact name="commons-compress" type="jar" ext="jar" status="no" details="" size="365552" time="0" location="C:\Users\jiyu\.ivy2\cache\org.apache.commons\commons-compress\jars\commons-compress-1.8.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/commons/commons-compress/1.8.1/commons-compress-1.8.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.tukaani" name="xz">
+			<revision name="1.5" status="release" pubdate="20140308193924" resolver="default" artresolver="main" homepage="http://tukaani.org/xz/java.html" downloaded="false" searched="false" default="false" conf="master" position="27">
+				<license name="Public Domain"/>
+				<metadata-artifact status="no" details="" size="2481" time="0" location="C:\Users\jiyu\.ivy2\cache\org.tukaani\xz\ivy-1.5.xml" searched="false" original-local-location="C:\Users\jiyu\.ivy2\cache\org.tukaani\xz\ivy-1.5.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/tukaani/xz/1.5/xz-1.5.pom"/>
+				<caller organisation="org.apache.solr" name="extraction" conf="compile" rev="1.5" rev-constraint-default="1.5" rev-constraint-dynamic="1.5" callerrev="working@dwarf"/>
+				<artifacts>
+					<artifact name="xz" type="jar" ext="jar" status="no" details="" size="99555" time="0" location="C:\Users\jiyu\.ivy2\cache\org.tukaani\xz\jars\xz-1.5.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/tukaani/xz/1.5/xz-1.5.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.james" name="apache-mime4j-dom">
+			<revision name="0.7.2" status="release" pubdate="20120107221138" resolver="default" artresolver="main" homepage="" downloaded="false" searched="false" default="false" conf="master" position="7">
+				<metadata-artifact status="no" details="" size="6650" time="0" location="C:\Users\jiyu\.ivy2\cache\org.apache.james\apache-mime4j-dom\ivy-0.7.2.xml" searched="false" original-local-location="C:\Users\jiyu\.ivy2\cache\org.apache.james\apache-mime4j-dom\ivy-0.7.2.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/james/apache-mime4j-dom/0.7.2/apache-mime4j-dom-0.7.2.pom"/>
+				<caller organisation="org.apache.solr" name="extraction" conf="compile" rev="0.7.2" rev-constraint-default="0.7.2" rev-constraint-dynamic="0.7.2" callerrev="working@dwarf"/>
+				<artifacts>
+					<artifact name="apache-mime4j-dom" type="jar" ext="jar" status="no" details="" size="304810" time="0" location="C:\Users\jiyu\.ivy2\cache\org.apache.james\apache-mime4j-dom\jars\apache-mime4j-dom-0.7.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/james/apache-mime4j-dom/0.7.2/apache-mime4j-dom-0.7.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.james" name="apache-mime4j-core">
+			<revision name="0.7.2" status="release" pubdate="20120107220924" resolver="default" artresolver="main" homepage="" downloaded="false" searched="false" default="false" conf="master" position="6">
+				<metadata-artifact status="no" details="" size="6221" time="0" location="C:\Users\jiyu\.ivy2\cache\org.apache.james\apache-mime4j-core\ivy-0.7.2.xml" searched="false" original-local-location="C:\Users\jiyu\.ivy2\cache\org.apache.james\apache-mime4j-core\ivy-0.7.2.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/james/apache-mime4j-core/0.7.2/apache-mime4j-core-0.7.2.pom"/>
+				<caller organisation="org.apache.solr" name="extraction" conf="compile" rev="0.7.2" rev-constraint-default="0.7.2" rev-constraint-dynamic="0.7.2" callerrev="working@dwarf"/>
+				<artifacts>
+					<artifact name="apache-mime4j-core" type="jar" ext="jar" status="no" details="" size="95536" time="0" location="C:\Users\jiyu\.ivy2\cache\org.apache.james\apache-mime4j-core\jars\apache-mime4j-core-0.7.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/james/apache-mime4j-core/0.7.2/apache-mime4j-core-0.7.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="net.sourceforge.jmatio" name="jmatio">
+			<revision name="1.0" status="release" pubdate="20121213150108" resolver="default" artresolver="main" homepage="http://sourceforge.net/projects/jmatio/" downloaded="false" searched="false" default="false" conf="master" position="30">
+				<license name="BSD" url="http://www.linfo.org/bsdlicense.html"/>
+				<metadata-artifact status="no" details="" size="2968" time="0" location="C:\Users\jiyu\.ivy2\cache\net.sourceforge.jmatio\jmatio\ivy-1.0.xml" searched="false" original-local-location="C:\Users\jiyu\.ivy2\cache\net.sourceforge.jmatio\jmatio\ivy-1.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/net/sourceforge/jmatio/jmatio/1.0/jmatio-1.0.pom"/>
+				<caller organisation="org.apache.solr" name="extraction" conf="compile" rev="1.0" rev-constraint-default="1.0" rev-constraint-dynamic="1.0" callerrev="working@dwarf"/>
+				<artifacts>
+					<artifact name="jmatio" type="jar" ext="jar" status="no" details="" size="66536" time="0" location="C:\Users\jiyu\.ivy2\cache\net.sourceforge.jmatio\jmatio\jars\jmatio-1.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/net/sourceforge/jmatio/jmatio/1.0/jmatio-1.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.gagravarr" name="vorbis-java-tika">
+			<revision name="0.6" status="release" pubdate="20140510001453" resolver="default" artresolver="main" homepage="https://github.com/Gagravarr/VorbisJava" downloaded="false" searched="false" default="false" conf="master" position="4">
+				<metadata-artifact status="no" details="" size="4034" time="0" location="C:\Users\jiyu\.ivy2\cache\org.gagravarr\vorbis-java-tika\ivy-0.6.xml" searched="false" original-local-location="C:\Users\jiyu\.ivy2\cache\org.gagravarr\vorbis-java-tika\ivy-0.6.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/gagravarr/vorbis-java-tika/0.6/vorbis-java-tika-0.6.pom"/>
+				<caller organisation="org.apache.solr" name="extraction" conf="compile" rev="0.6" rev-constraint-default="0.6" rev-constraint-dynamic="0.6" callerrev="working@dwarf"/>
+				<artifacts>
+					<artifact name="vorbis-java-tika" type="jar" ext="jar" status="no" details="" size="22962" time="0" location="C:\Users\jiyu\.ivy2\cache\org.gagravarr\vorbis-java-tika\jars\vorbis-java-tika-0.6.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/gagravarr/vorbis-java-tika/0.6/vorbis-java-tika-0.6.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.gagravarr" name="vorbis-java-core">
+			<revision name="0.6" status="release" pubdate="20140510001326" resolver="default" artresolver="main" homepage="https://github.com/Gagravarr/VorbisJava" downloaded="false" searched="false" default="false" conf="master" position="5">
+				<metadata-artifact status="no" details="" size="3514" time="0" location="C:\Users\jiyu\.ivy2\cache\org.gagravarr\vorbis-java-core\ivy-0.6.xml" searched="false" original-local-location="C:\Users\jiyu\.ivy2\cache\org.gagravarr\vorbis-java-core\ivy-0.6.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/gagravarr/vorbis-java-core/0.6/vorbis-java-core-0.6.pom"/>
+				<caller organisation="org.apache.solr" name="extraction" conf="compile" rev="0.6" rev-constraint-default="0.6" rev-constraint-dynamic="0.6" callerrev="working@dwarf"/>
+				<artifacts>
+					<artifact name="vorbis-java-core" type="jar" ext="jar" status="no" details="" size="76323" time="0" location="C:\Users\jiyu\.ivy2\cache\org.gagravarr\vorbis-java-core\jars\vorbis-java-core-0.6.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/gagravarr/vorbis-java-core/0.6/vorbis-java-core-0.6.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.tika" name="tika-core">
+			<revision name="1.7" status="release" pubdate="20150110052848" resolver="public" artresolver="main" homepage="http://tika.apache.org/" downloaded="false" searched="false" default="false" conf="master" position="0">
+				<metadata-artifact status="no" details="" size="5848" time="0" location="C:\Users\jiyu\.ivy2\cache\org.apache.tika\tika-core\ivy-1.7.xml" searched="false" original-local-location="C:\Users\jiyu\.ivy2\cache\org.apache.tika\tika-core\ivy-1.7.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/tika/tika-core/1.7/tika-core-1.7.pom"/>
+				<caller organisation="org.apache.solr" name="extraction" conf="compile" rev="1.7" rev-constraint-default="1.7" rev-constraint-dynamic="1.7" callerrev="working@dwarf"/>
+				<artifacts>
+					<artifact name="tika-core" type="bundle" ext="jar" status="no" details="" size="526237" time="0" location="C:\Users\jiyu\.ivy2\cache\org.apache.tika\tika-core\bundles\tika-core-1.7.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/tika/tika-core/1.7/tika-core-1.7.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

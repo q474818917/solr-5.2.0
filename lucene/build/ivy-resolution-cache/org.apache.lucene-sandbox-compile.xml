@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="org.apache.lucene"
+		module="sandbox"
+		revision="working@dwarf"
+		conf="compile"
+		confs="compile"
+		date="20160603183941"/>
+	<dependencies>
+		<module organisation="jakarta-regexp" name="jakarta-regexp">
+			<revision name="1.4" status="release" pubdate="20051109062355" resolver="public" artresolver="main" homepage="" downloaded="false" searched="false" default="false" conf="master" position="0">
+				<metadata-artifact status="no" details="" size="2426" time="0" location="C:\Users\jiyu\.ivy2\cache\jakarta-regexp\jakarta-regexp\ivy-1.4.xml" searched="false" original-local-location="C:\Users\jiyu\.ivy2\cache\jakarta-regexp\jakarta-regexp\ivy-1.4.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/jakarta-regexp/jakarta-regexp/1.4/jakarta-regexp-1.4.pom"/>
+				<caller organisation="org.apache.lucene" name="sandbox" conf="compile" rev="1.4" rev-constraint-default="1.4" rev-constraint-dynamic="1.4" callerrev="working@dwarf"/>
+				<artifacts>
+					<artifact name="jakarta-regexp" type="jar" ext="jar" status="no" details="" size="28576" time="0" location="C:\Users\jiyu\.ivy2\cache\jakarta-regexp\jakarta-regexp\jars\jakarta-regexp-1.4.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/jakarta-regexp/jakarta-regexp/1.4/jakarta-regexp-1.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

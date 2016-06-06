@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="org.apache.solr"
+		module="core"
+		revision="working@dwarf"
+		conf="compile"
+		confs="compile, compile.hadoop"
+		date="20160603183944"/>
+	<dependencies>
+		<module organisation="net.agkn" name="hll">
+			<revision name="1.6.0" status="release" pubdate="20140731070609" resolver="public" artresolver="main" homepage="https://github.com/aggregateknowledge/java-hll" downloaded="false" searched="false" default="false" conf="javadoc, default, system, compile, sources, provided, runtime, *, optional, master" position="17">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="4383" time="0" location="C:\Users\jiyu\.ivy2\cache\net.agkn\hll\ivy-1.6.0.xml" searched="false" original-local-location="C:\Users\jiyu\.ivy2\cache\net.agkn\hll\ivy-1.6.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/net/agkn/hll/1.6.0/hll-1.6.0.pom"/>
+				<caller organisation="org.apache.solr" name="core" conf="compile" rev="1.6.0" rev-constraint-default="1.6.0" rev-constraint-dynamic="1.6.0" callerrev="working@dwarf"/>
+				<artifacts>
+					<artifact name="hll" type="jar" ext="jar" status="no" details="" size="29782" time="0" location="C:\Users\jiyu\.ivy2\cache\net.agkn\hll\jars\hll-1.6.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/net/agkn/hll/1.6.0/hll-1.6.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="it.unimi.dsi" name="fastutil">
+			<revision name="6.5.11" status="release" pubdate="20131104174602" resolver="public" artresolver="main" homepage="http://fasutil.di.unimi.it/" downloaded="false" searched="false" default="false" conf="javadoc, default, system, compile, sources, provided, runtime, *, optional, master" position="18">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="2837" time="0" location="C:\Users\jiyu\.ivy2\cache\it.unimi.dsi\fastutil\ivy-6.5.11.xml" searched="false" original-local-location="C:\Users\jiyu\.ivy2\cache\it.unimi.dsi\fastutil\ivy-6.5.11.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/it/unimi/dsi/fastutil/6.5.11/fastutil-6.5.11.pom"/>
+				<caller organisation="org.apache.solr" name="core" conf="compile" rev="6.5.11" rev-constraint-default="6.5.11" rev-constraint-dynamic="6.5.11" callerrev="working@dwarf"/>
+				<artifacts>
+					<artifact name="fastutil" type="jar" ext="jar" status="no" details="" size="16927375" time="0" location="C:\Users\jiyu\.ivy2\cache\it.unimi.dsi\fastutil\jars\fastutil-6.5.11.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/it/unimi/dsi/fastutil/6.5.11/fastutil-6.5.11.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.tdunning" name="t-digest">
+			<revision name="3.1" status="release" pubdate="20150406090516" resolver="public" artresolver="main" homepage="https://github.com/tdunning/t-digest" downloaded="false" searched="false" default="false" conf="javadoc, default, system, compile, sources, provided, runtime, *, optional, master" position="16">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3889" time="0" location="C:\Users\jiyu\.ivy2\cache\com.tdunning\t-digest\ivy-3.1.xml" searched="false" original-local-location="C:\Users\jiyu\.ivy2\cache\com.tdunning\t-digest\ivy-3.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/tdunning/t-digest/3.1/t-digest-3.1.pom"/>
+				<caller organisation="org.apache.solr" name="core" conf="compile" rev="3.1" rev-constraint-default="3.1" rev-constraint-dynamic="3.1" callerrev="working@dwarf"/>
+				<artifacts>
+					<artifact name="t-digest" type="jar" ext="jar" status="no" details="" size="61298" time="0" location="C:\Users\jiyu\.ivy2\cache\com.tdunning\t-digest\jars\t-digest-3.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/tdunning/t-digest/3.1/t-digest-3.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.slf4j" name="slf4j-log4j12">
+			<revision name="1.7.7" status="release" pubdate="20140404191326" resolver="public" artresolver="main" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="master" position="15">
+				<metadata-artifact status="no" details="" size="4978" time="0" location="C:\Users\jiyu\.ivy2\cache\org.slf4j\slf4j-log4j12\ivy-1.7.7.xml" searched="false" original-local-location="C:\Users\jiyu\.ivy2\cache\org.slf4j\slf4j-log4j12\ivy-1.7.7.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/slf4j/slf4j-log4j12/1.7.7/slf4j-log4j12-1.7.7.pom"/>
+				<caller organisation="org.apache.solr" name="core" conf="compile" rev="1.7.7" rev-constraint-default="1.7.7" rev-constraint-dynamic="1.7.7" callerrev="working@dwarf"/>
+				<artifacts>
+					<artifact name="slf4j-log4j12" type="jar" ext="jar" status="no" details="" size="8870" time="0" location="C:\Users\jiyu\.ivy2\cache\org.slf4j\slf4j-log4j12\jars\slf4j-log4j12-1.7.7.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/slf4j/slf4j-log4j12/1.7.7/slf4j-log4j12-1.7.7.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="log4j" name="log4j">
+			<revision name="1.2.17" status="release" pubdate="20120526174339" resolver="default" artresolver="main" homepage="http://logging.apache.org/log4j/1.2/" downloaded="false" searched="false" default="false" conf="master" position="14">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3732" time="0" location="C:\Users\jiyu\.ivy2\cache\log4j\log4j\ivy-1.2.17.xml" searched="false" original-local-location="C:\Users\jiyu\.ivy2\cache\log4j\log4j\ivy-1.2.17.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/log4j/log4j/1.2.17/log4j-1.2.17.pom"/>
+				<caller organisation="org.apache.solr" name="core" conf="compile" rev="1.2.17" rev-constraint-default="1.2.17" rev-constraint-dynamic="1.2.17" callerrev="working@dwarf"/>
+				<artifacts>
+					<artifact name="log4j" type="bundle" ext="jar" status="no" details="" size="489884" time="0" location="C:\Users\jiyu\.ivy2\cache\log4j\log4j\bundles\log4j-1.2.17.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/log4j/log4j/1.2.17/log4j-1.2.17.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.carrotsearch" name="hppc">
+			<revision name="0.5.2" status="release" pubdate="20130709155529" resolver="default" artresolver="main" homepage="" downloaded="false" searched="false" default="false" conf="master" position="13">
+				<metadata-artifact status="no" details="" size="5168" time="0" location="C:\Users\jiyu\.ivy2\cache\com.carrotsearch\hppc\ivy-0.5.2.xml" searched="false" original-local-location="C:\Users\jiyu\.ivy2\cache\com.carrotsearch\hppc\ivy-0.5.2.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/carrotsearch/hppc/0.5.2/hppc-0.5.2.pom"/>
+				<caller organisation="org.apache.solr" name="core" conf="compile" rev="0.5.2" rev-constraint-default="0.5.2" rev-constraint-dynamic="0.5.2" callerrev="working@dwarf"/>
+				<artifacts>
+					<artifact name="hppc" type="jar" ext="jar" status="no" details="" size="1288954" time="0" location="C:\Users\jiyu\.ivy2\cache\com.carrotsearch\hppc\jars\hppc-0.5.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/carrotsearch/hppc/0.5.2/hppc-0.5.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="dom4j" name="dom4j">
+			<revision name="1.6.1" status="release" pubdate="20060210203318" resolver="default" artresolver="main" homepage="http://dom4j.org" downloaded="false" searched="false" default="false" conf="master" position="12">
+				<metadata-artifact status="no" details="" size="3877" time="0" location="C:\Users\jiyu\.ivy2\cache\dom4j\dom4j\ivy-1.6.1.xml" searched="false" original-local-location="C:\Users\jiyu\.ivy2\cache\dom4j\dom4j\ivy-1.6.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/dom4j/dom4j/1.6.1/dom4j-1.6.1.pom"/>
+				<caller organisation="org.apache.solr" name="core" conf="compile" rev="1.6.1" rev-constraint-default="1.6.1" rev-constraint-dynamic="1.6.1" callerrev="working@dwarf"/>
+				<artifacts>
+					<artifact name="dom4j" type="jar" ext="jar" status="no" details="" size="313898" time="0" location="C:\Users\jiyu\.ivy2\cache\dom4j\dom4j\jars\dom4j-1.6.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="joda-time" name="joda-time">
+			<revision name="2.2" status="release" pubdate="20130308222346" resolver="default" artresolver="main" homepage="http://joda-time.sourceforge.net" downloaded="false" searched="false" default="false" conf="master" position="11">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3633" time="0" location="C:\Users\jiyu\.ivy2\cache\joda-time\joda-time\ivy-2.2.xml" searched="false" original-local-location="C:\Users\jiyu\.ivy2\cache\joda-time\joda-time\ivy-2.2.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/joda-time/joda-time/2.2/joda-time-2.2.pom"/>
+				<caller organisation="org.apache.solr" name="core" conf="compile" rev="2.2" rev-constraint-default="2.2" rev-constraint-dynamic="2.2" callerrev="working@dwarf"/>
+				<artifacts>
+					<artifact name="joda-time" type="jar" ext="jar" status="no" details="" size="573912" time="0" location="C:\Users\jiyu\.ivy2\cache\joda-time\joda-time\jars\joda-time-2.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/joda-time/joda-time/2.2/joda-time-2.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.restlet.jee" name="org.restlet.ext.servlet">
+			<revision name="2.3.0" status="release" pubdate="20141218014132" resolver="maven.restlet.org" artresolver="main" homepage="" downloaded="false" searched="false" default="false" conf="master" position="10">
+				<metadata-artifact status="no" details="" size="10260" time="0" location="C:\Users\jiyu\.ivy2\cache\org.restlet.jee\org.restlet.ext.servlet\ivy-2.3.0.xml" searched="false" original-local-location="C:\Users\jiyu\.ivy2\cache\org.restlet.jee\org.restlet.ext.servlet\ivy-2.3.0.xml.original" origin-is-local="false" origin-location="http://maven.restlet.org/org/restlet/jee/org.restlet.ext.servlet/2.3.0/org.restlet.ext.servlet-2.3.0.pom"/>
+				<caller organisation="org.apache.solr" name="core" conf="compile" rev="2.3.0" rev-constraint-default="2.3.0" rev-constraint-dynamic="2.3.0" callerrev="working@dwarf"/>
+				<artifacts>
+					<artifact name="org.restlet.ext.servlet" type="jar" ext="jar" status="no" details="" size="22972" time="0" location="C:\Users\jiyu\.ivy2\cache\org.restlet.jee\org.restlet.ext.servlet\jars\org.restlet.ext.servlet-2.3.0.jar">
+						<origin-location is-local="false" location="http://maven.restlet.org/org/restlet/jee/org.restlet.ext.servlet/2.3.0/org.restlet.ext.servlet-2.3.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.restlet.jee" name="org.restlet">
+			<revision name="2.3.0" status="release" pubdate="20141218014132" resolver="maven.restlet.org" artresolver="main" homepage="" downloaded="false" searched="false" default="false" conf="master" position="9">
+				<metadata-artifact status="no" details="" size="9908" time="0" location="C:\Users\jiyu\.ivy2\cache\org.restlet.jee\org.restlet\ivy-2.3.0.xml" searched="false" original-local-location="C:\Users\jiyu\.ivy2\cache\org.restlet.jee\org.restlet\ivy-2.3.0.xml.original" origin-is-local="false" origin-location="http://maven.restlet.org/org/restlet/jee/org.restlet/2.3.0/org.restlet-2.3.0.pom"/>
+				<caller organisation="org.apache.solr" name="core" conf="compile" rev="2.3.0" rev-constraint-default="2.3.0" rev-constraint-dynamic="2.3.0" callerrev="working@dwarf"/>
+				<artifacts>
+					<artifact name="org.restlet" type="jar" ext="jar" status="no" details="" size="708039" time="0" location="C:\Users\jiyu\.ivy2\cache\org.restlet.jee\org.restlet\jars\org.restlet-2.3.0.jar">
+						<origin-location is-local="false" location="http://maven.restlet.org/org/restlet/jee/org.restlet/2.3.0/org.restlet-2.3.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.ow2.asm" name="asm-commons">
+			<revision name="4.1" status="release" pubdate="20121014233823" resolver="default" artresolver="main" homepage="" downloaded="false" searched="false" default="false" conf="master" position="8">
+				<metadata-artifact status="no" details="" size="4619" time="0" location="C:\Users\jiyu\.ivy2\cache\org.ow2.asm\asm-commons\ivy-4.1.xml" searched="false" original-local-location="C:\Users\jiyu\.ivy2\cache\org.ow2.asm\asm-commons\ivy-4.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/ow2/asm/asm-commons/4.1/asm-commons-4.1.pom"/>
+				<caller organisation="org.apache.solr" name="core" conf="compile" rev="4.1" rev-constraint-default="4.1" rev-constraint-dynamic="4.1" callerrev="working@dwarf"/>
+				<artifacts>
+					<artifact name="asm-commons" type="jar" ext="jar" status="no" details="" size="38090" time="0" location="C:\Users\jiyu\.ivy2\cache\org.ow2.asm\asm-commons\jars\asm-commons-4.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/ow2/asm/asm-commons/4.1/asm-commons-4.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.ow2.asm" name="asm">
+			<revision name="4.1" status="release" pubdate="20121014233745" resolver="default" artresolver="main" homepage="" downloaded="false" searched="false" default="false" conf="master" position="7">
+				<metadata-artifact status="no" details="" size="3958" time="0" location="C:\Users\jiyu\.ivy2\cache\org.ow2.asm\asm\ivy-4.1.xml" searched="false" original-local-location="C:\Users\jiyu\.ivy2\cache\org.ow2.asm\asm\ivy-4.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/ow2/asm/asm/4.1/asm-4.1.pom"/>
+				<caller organisation="org.apache.solr" name="core" conf="compile" rev="4.1" rev-constraint-default="4.1" rev-constraint-dynamic="4.1" callerrev="working@dwarf"/>
+				<artifacts>
+					<artifact name="asm" type="jar" ext="jar" status="no" details="" size="47359" time="0" location="C:\Users\jiyu\.ivy2\cache\org.ow2.asm\asm\jars\asm-4.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/ow2/asm/asm/4.1/asm-4.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.antlr" name="antlr-runtime">
+			<revision name="3.5" status="release" pubdate="20130105113525" resolver="default" artresolver="main" homepage="http://www.antlr.org" downloaded="false" searched="false" default="false" conf="master" position="6">
+				<metadata-artifact status="no" details="" size="5837" time="0" location="C:\Users\jiyu\.ivy2\cache\org.antlr\antlr-runtime\ivy-3.5.xml" searched="false" original-local-location="C:\Users\jiyu\.ivy2\cache\org.antlr\antlr-runtime\ivy-3.5.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/antlr/antlr-runtime/3.5/antlr-runtime-3.5.pom"/>
+				<caller organisation="org.apache.solr" name="core" conf="compile" rev="3.5" rev-constraint-default="3.5" rev-constraint-dynamic="3.5" callerrev="working@dwarf"/>
+				<artifacts>
+					<artifact name="antlr-runtime" type="jar" ext="jar" status="no" details="" size="167735" time="0" location="C:\Users\jiyu\.ivy2\cache\org.antlr\antlr-runtime\jars\antlr-runtime-3.5.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/antlr/antlr-runtime/3.5/antlr-runtime-3.5.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.spatial4j" name="spatial4j">
+			<revision name="0.4.1" status="release" pubdate="20140219141135" resolver="default" artresolver="main" homepage="https://github.com/spatial4j/spatial4j" downloaded="false" searched="false" default="false" conf="master" position="5">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="4237" time="0" location="C:\Users\jiyu\.ivy2\cache\com.spatial4j\spatial4j\ivy-0.4.1.xml" searched="false" original-local-location="C:\Users\jiyu\.ivy2\cache\com.spatial4j\spatial4j\ivy-0.4.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/spatial4j/spatial4j/0.4.1/spatial4j-0.4.1.pom"/>
+				<caller organisation="org.apache.solr" name="core" conf="compile" rev="0.4.1" rev-constraint-default="0.4.1" rev-constraint-dynamic="0.4.1" callerrev="working@dwarf"/>
+				<artifacts>
+					<artifact name="spatial4j" type="bundle" ext="jar" status="no" details="" size="102177" time="0" location="C:\Users\jiyu\.ivy2\cache\com.spatial4j\spatial4j\bundles\spatial4j-0.4.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/spatial4j/spatial4j/0.4.1/spatial4j-0.4.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.guava" name="guava">
+			<revision name="14.0.1" status="release" pubdate="20130315075719" resolver="default" artresolver="main" homepage="" downloaded="false" searched="false" default="false" conf="master" position="4">
+				<metadata-artifact status="no" details="" size="3868" time="0" location="C:\Users\jiyu\.ivy2\cache\com.google.guava\guava\ivy-14.0.1.xml" searched="false" original-local-location="C:\Users\jiyu\.ivy2\cache\com.google.guava\guava\ivy-14.0.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/guava/guava/14.0.1/guava-14.0.1.pom"/>
+				<caller organisation="org.apache.solr" name="core" conf="compile" rev="14.0.1" rev-constraint-default="14.0.1" rev-constraint-dynamic="14.0.1" callerrev="working@dwarf"/>
+				<artifacts>
+					<artifact name="guava" type="bundle" ext="jar" status="no" details="" size="2189117" time="0" location="C:\Users\jiyu\.ivy2\cache\com.google.guava\guava\bundles\guava-14.0.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/guava/guava/14.0.1/guava-14.0.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-lang" name="commons-lang">
+			<revision name="2.6" status="release" pubdate="20110117062147" resolver="default" artresolver="main" homepage="http://commons.apache.org/lang/" downloaded="false" searched="false" default="false" conf="master" position="3">
+				<metadata-artifact status="no" details="" size="6873" time="0" location="C:\Users\jiyu\.ivy2\cache\commons-lang\commons-lang\ivy-2.6.xml" searched="false" original-local-location="C:\Users\jiyu\.ivy2\cache\commons-lang\commons-lang\ivy-2.6.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/commons-lang/commons-lang/2.6/commons-lang-2.6.pom"/>
+				<caller organisation="org.apache.solr" name="core" conf="compile" rev="2.6" rev-constraint-default="2.6" rev-constraint-dynamic="2.6" callerrev="working@dwarf"/>
+				<artifacts>
+					<artifact name="commons-lang" type="jar" ext="jar" status="no" details="" size="284220" time="0" location="C:\Users\jiyu\.ivy2\cache\commons-lang\commons-lang\jars\commons-lang-2.6.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-lang/commons-lang/2.6/commons-lang-2.6.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-cli" name="commons-cli">
+			<revision name="1.2" status="release" pubdate="20090320040832" resolver="default" artresolver="main" homepage="http://commons.apache.org/cli/" downloaded="false" searched="false" default="false" conf="master" position="2">
+				<metadata-artifact status="no" details="" size="4821" time="0" location="C:\Users\jiyu\.ivy2\cache\commons-cli\commons-cli\ivy-1.2.xml" searched="false" original-local-location="C:\Users\jiyu\.ivy2\cache\commons-cli\commons-cli\ivy-1.2.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/commons-cli/commons-cli/1.2/commons-cli-1.2.pom"/>
+				<caller organisation="org.apache.solr" name="core" conf="compile" rev="1.2" rev-constraint-default="1.2" rev-constraint-dynamic="1.2" callerrev="working@dwarf"/>
+				<artifacts>
+					<artifact name="commons-cli" type="jar" ext="jar" status="no" details="" size="41123" time="0" location="C:\Users\jiyu\.ivy2\cache\commons-cli\commons-cli\jars\commons-cli-1.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-cli/commons-cli/1.2/commons-cli-1.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-fileupload" name="commons-fileupload">
+			<revision name="1.2.1" status="release" pubdate="20080211150752" resolver="default" artresolver="main" homepage="http://commons.apache.org/fileupload/" downloaded="false" searched="false" default="false" conf="master" position="1">
+				<metadata-artifact status="no" details="" size="3986" time="0" location="C:\Users\jiyu\.ivy2\cache\commons-fileupload\commons-fileupload\ivy-1.2.1.xml" searched="false" original-local-location="C:\Users\jiyu\.ivy2\cache\commons-fileupload\commons-fileupload\ivy-1.2.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/commons-fileupload/commons-fileupload/1.2.1/commons-fileupload-1.2.1.pom"/>
+				<caller organisation="org.apache.solr" name="core" conf="compile" rev="1.2.1" rev-constraint-default="1.2.1" rev-constraint-dynamic="1.2.1" callerrev="working@dwarf"/>
+				<artifacts>
+					<artifact name="commons-fileupload" type="jar" ext="jar" status="no" details="" size="57779" time="0" location="C:\Users\jiyu\.ivy2\cache\commons-fileupload\commons-fileupload\jars\commons-fileupload-1.2.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-fileupload/commons-fileupload/1.2.1/commons-fileupload-1.2.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-codec" name="commons-codec">
+			<revision name="1.10" status="release" pubdate="20141106221535" resolver="public" artresolver="main" homepage="http://commons.apache.org/proper/commons-codec/" downloaded="false" searched="false" default="false" conf="master" position="0">
+				<metadata-artifact status="no" details="" size="11050" time="0" location="C:\Users\jiyu\.ivy2\cache\commons-codec\commons-codec\ivy-1.10.xml" searched="false" original-local-location="C:\Users\jiyu\.ivy2\cache\commons-codec\commons-codec\ivy-1.10.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/commons-codec/commons-codec/1.10/commons-codec-1.10.pom"/>
+				<caller organisation="org.apache.solr" name="core" conf="compile" rev="1.10" rev-constraint-default="1.10" rev-constraint-dynamic="1.10" callerrev="working@dwarf"/>
+				<artifacts>
+					<artifact name="commons-codec" type="jar" ext="jar" status="no" details="" size="284184" time="0" location="C:\Users\jiyu\.ivy2\cache\commons-codec\commons-codec\jars\commons-codec-1.10.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-codec/commons-codec/1.10/commons-codec-1.10.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

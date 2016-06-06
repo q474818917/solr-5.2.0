@@ -1,0 +1,470 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="org.apache.solr"
+		module="morphlines-core"
+		revision="working@dwarf"
+		conf="test"
+		confs="test, test.DfsMiniCluster"
+		date="20160603184010"/>
+	<dependencies>
+		<module organisation="org.apache.avro" name="avro">
+			<revision name="1.7.5" status="release" pubdate="20130809001651" resolver="public" artresolver="main" homepage="http://avro.apache.org" downloaded="false" searched="false" default="false" conf="master" position="37">
+				<metadata-artifact status="no" details="" size="10657" time="0" location="C:\Users\jiyu\.ivy2\cache\org.apache.avro\avro\ivy-1.7.5.xml" searched="false" original-local-location="C:\Users\jiyu\.ivy2\cache\org.apache.avro\avro\ivy-1.7.5.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/avro/avro/1.7.5/avro-1.7.5.pom"/>
+				<caller organisation="org.apache.solr" name="morphlines-core" conf="test" rev="1.7.5" rev-constraint-default="1.7.5" rev-constraint-dynamic="1.7.5" callerrev="working@dwarf"/>
+				<artifacts>
+					<artifact name="avro" type="jar" ext="jar" status="no" details="" size="400680" time="0" location="C:\Users\jiyu\.ivy2\cache\org.apache.avro\avro\jars\avro-1.7.5.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/avro/avro/1.7.5/avro-1.7.5.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.xerial.snappy" name="snappy-java">
+			<revision name="1.0.5" status="release" pubdate="20130517093557" resolver="default" artresolver="main" homepage="http://github.com/xerial/snappy-java/" downloaded="false" searched="false" default="false" conf="master" position="39">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="4075" time="0" location="C:\Users\jiyu\.ivy2\cache\org.xerial.snappy\snappy-java\ivy-1.0.5.xml" searched="false" original-local-location="C:\Users\jiyu\.ivy2\cache\org.xerial.snappy\snappy-java\ivy-1.0.5.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/xerial/snappy/snappy-java/1.0.5/snappy-java-1.0.5.pom"/>
+				<caller organisation="org.apache.solr" name="morphlines-core" conf="test" rev="1.0.5" rev-constraint-default="1.0.5" rev-constraint-dynamic="1.0.5" callerrev="working@dwarf"/>
+				<artifacts>
+					<artifact name="snappy-java" type="bundle" ext="jar" status="no" details="" size="1251514" time="0" location="C:\Users\jiyu\.ivy2\cache\org.xerial.snappy\snappy-java\bundles\snappy-java-1.0.5.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/xerial/snappy/snappy-java/1.0.5/snappy-java-1.0.5.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.thoughtworks.paranamer" name="paranamer">
+			<revision name="2.3" status="release" pubdate="20101019211431" resolver="default" artresolver="main" homepage="" downloaded="false" searched="false" default="false" conf="master" position="38">
+				<metadata-artifact status="no" details="" size="3566" time="0" location="C:\Users\jiyu\.ivy2\cache\com.thoughtworks.paranamer\paranamer\ivy-2.3.xml" searched="false" original-local-location="C:\Users\jiyu\.ivy2\cache\com.thoughtworks.paranamer\paranamer\ivy-2.3.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer/2.3/paranamer-2.3.pom"/>
+				<caller organisation="org.apache.solr" name="morphlines-core" conf="test" rev="2.3" rev-constraint-default="2.3" rev-constraint-dynamic="2.3" callerrev="working@dwarf"/>
+				<artifacts>
+					<artifact name="paranamer" type="jar" ext="jar" status="no" details="" size="29555" time="0" location="C:\Users\jiyu\.ivy2\cache\com.thoughtworks.paranamer\paranamer\jars\paranamer-2.3.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer/2.3/paranamer-2.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.sun.jersey" name="jersey-bundle">
+			<revision name="1.9" status="release" pubdate="20110902194725" resolver="public" artresolver="main" homepage="" downloaded="false" searched="false" default="false" conf="master" position="33">
+				<metadata-artifact status="no" details="" size="9366" time="0" location="C:\Users\jiyu\.ivy2\cache\com.sun.jersey\jersey-bundle\ivy-1.9.xml" searched="false" original-local-location="C:\Users\jiyu\.ivy2\cache\com.sun.jersey\jersey-bundle\ivy-1.9.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/sun/jersey/jersey-bundle/1.9/jersey-bundle-1.9.pom"/>
+				<caller organisation="org.apache.solr" name="morphlines-core" conf="test" rev="1.9" rev-constraint-default="1.9" rev-constraint-dynamic="1.9" callerrev="working@dwarf"/>
+				<artifacts>
+					<artifact name="jersey-bundle" type="jar" ext="jar" status="no" details="" size="1415962" time="0" location="C:\Users\jiyu\.ivy2\cache\com.sun.jersey\jersey-bundle\jars\jersey-bundle-1.9.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/sun/jersey/jersey-bundle/1.9/jersey-bundle-1.9.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.fasterxml.jackson.core" name="jackson-annotations">
+			<revision name="2.3.1" status="release" pubdate="20140123121431" resolver="public" artresolver="main" homepage="http://wiki.fasterxml.com/JacksonHome" downloaded="false" searched="false" default="false" conf="master" position="25">
+				<metadata-artifact status="no" details="" size="5240" time="0" location="C:\Users\jiyu\.ivy2\cache\com.fasterxml.jackson.core\jackson-annotations\ivy-2.3.1.xml" searched="false" original-local-location="C:\Users\jiyu\.ivy2\cache\com.fasterxml.jackson.core\jackson-annotations\ivy-2.3.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.3.1/jackson-annotations-2.3.1.pom"/>
+				<caller organisation="org.apache.solr" name="morphlines-core" conf="test" rev="2.3.1" rev-constraint-default="2.3.1" rev-constraint-dynamic="2.3.1" callerrev="working@dwarf"/>
+				<artifacts>
+					<artifact name="jackson-annotations" type="bundle" ext="jar" status="no" details="" size="36519" time="0" location="C:\Users\jiyu\.ivy2\cache\com.fasterxml.jackson.core\jackson-annotations\bundles\jackson-annotations-2.3.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.3.1/jackson-annotations-2.3.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.fasterxml.jackson.core" name="jackson-databind">
+			<revision name="2.3.1" status="release" pubdate="20131228102912" resolver="public" artresolver="main" homepage="http://wiki.fasterxml.com/JacksonHome" downloaded="false" searched="false" default="false" conf="master" position="24">
+				<metadata-artifact status="no" details="" size="7609" time="0" location="C:\Users\jiyu\.ivy2\cache\com.fasterxml.jackson.core\jackson-databind\ivy-2.3.1.xml" searched="false" original-local-location="C:\Users\jiyu\.ivy2\cache\com.fasterxml.jackson.core\jackson-databind\ivy-2.3.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.3.1/jackson-databind-2.3.1.pom"/>
+				<caller organisation="org.apache.solr" name="morphlines-core" conf="test" rev="2.3.1" rev-constraint-default="2.3.1" rev-constraint-dynamic="2.3.1" callerrev="working@dwarf"/>
+				<artifacts>
+					<artifact name="jackson-databind" type="bundle" ext="jar" status="no" details="" size="914311" time="0" location="C:\Users\jiyu\.ivy2\cache\com.fasterxml.jackson.core\jackson-databind\bundles\jackson-databind-2.3.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.3.1/jackson-databind-2.3.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.fasterxml.jackson.core" name="jackson-core">
+			<revision name="2.3.1" status="release" pubdate="20131228090124" resolver="public" artresolver="main" homepage="http://wiki.fasterxml.com/JacksonHome" downloaded="false" searched="false" default="false" conf="master" position="23">
+				<metadata-artifact status="no" details="" size="5846" time="0" location="C:\Users\jiyu\.ivy2\cache\com.fasterxml.jackson.core\jackson-core\ivy-2.3.1.xml" searched="false" original-local-location="C:\Users\jiyu\.ivy2\cache\com.fasterxml.jackson.core\jackson-core\ivy-2.3.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.3.1/jackson-core-2.3.1.pom"/>
+				<caller organisation="org.apache.solr" name="morphlines-core" conf="test" rev="2.3.1" rev-constraint-default="2.3.1" rev-constraint-dynamic="2.3.1" callerrev="working@dwarf"/>
+				<artifacts>
+					<artifact name="jackson-core" type="bundle" ext="jar" status="no" details="" size="197986" time="0" location="C:\Users\jiyu\.ivy2\cache\com.fasterxml.jackson.core\jackson-core\bundles\jackson-core-2.3.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.3.1/jackson-core-2.3.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.slf4j" name="jcl-over-slf4j">
+			<revision name="1.7.7" status="release" pubdate="20140404191411" resolver="public" artresolver="main" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="master" position="22">
+				<metadata-artifact status="no" details="" size="4978" time="0" location="C:\Users\jiyu\.ivy2\cache\org.slf4j\jcl-over-slf4j\ivy-1.7.7.xml" searched="false" original-local-location="C:\Users\jiyu\.ivy2\cache\org.slf4j\jcl-over-slf4j\ivy-1.7.7.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/slf4j/jcl-over-slf4j/1.7.7/jcl-over-slf4j-1.7.7.pom"/>
+				<caller organisation="org.apache.solr" name="morphlines-core" conf="test" rev="1.7.7" rev-constraint-default="1.7.7" rev-constraint-dynamic="1.7.7" callerrev="working@dwarf"/>
+				<artifacts>
+					<artifact name="jcl-over-slf4j" type="jar" ext="jar" status="no" details="" size="16519" time="0" location="C:\Users\jiyu\.ivy2\cache\org.slf4j\jcl-over-slf4j\jars\jcl-over-slf4j-1.7.7.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/slf4j/jcl-over-slf4j/1.7.7/jcl-over-slf4j-1.7.7.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.mockito" name="mockito-core">
+			<revision name="1.9.5" status="release" pubdate="20121014180649" resolver="public" artresolver="main" homepage="http://www.mockito.org" downloaded="false" searched="false" default="false" conf="master" position="20">
+				<license name="The MIT License" url="http://code.google.com/p/mockito/wiki/License"/>
+				<metadata-artifact status="no" details="" size="2884" time="0" location="C:\Users\jiyu\.ivy2\cache\org.mockito\mockito-core\ivy-1.9.5.xml" searched="false" original-local-location="C:\Users\jiyu\.ivy2\cache\org.mockito\mockito-core\ivy-1.9.5.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/mockito/mockito-core/1.9.5/mockito-core-1.9.5.pom"/>
+				<caller organisation="org.apache.solr" name="morphlines-core" conf="test" rev="1.9.5" rev-constraint-default="1.9.5" rev-constraint-dynamic="1.9.5" callerrev="working@dwarf"/>
+				<artifacts>
+					<artifact name="mockito-core" type="jar" ext="jar" status="no" details="" size="1500011" time="0" location="C:\Users\jiyu\.ivy2\cache\org.mockito\mockito-core\jars\mockito-core-1.9.5.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/mockito/mockito-core/1.9.5/mockito-core-1.9.5.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.mrunit" name="mrunit">
+			<revision name="1.0.0" status="release" pubdate="20130404042718" resolver="public" artresolver="main" homepage="http://mrunit.apache.org" downloaded="false" searched="false" default="false" conf="master" position="19">
+				<metadata-artifact status="no" details="" size="4777" time="0" location="C:\Users\jiyu\.ivy2\cache\org.apache.mrunit\mrunit\ivy-1.0.0.xml" searched="false" original-local-location="C:\Users\jiyu\.ivy2\cache\org.apache.mrunit\mrunit\ivy-1.0.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/mrunit/mrunit/1.0.0/mrunit-1.0.0.pom"/>
+				<caller organisation="org.apache.solr" name="morphlines-core" conf="test" rev="1.0.0" rev-constraint-default="1.0.0" rev-constraint-dynamic="1.0.0" callerrev="working@dwarf"/>
+				<artifacts>
+					<artifact name="mrunit" type="jar" ext="jar" extra-classifier="hadoop2" status="no" details="" size="107424" time="0" location="C:\Users\jiyu\.ivy2\cache\org.apache.mrunit\mrunit\jars\mrunit-1.0.0-hadoop2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/mrunit/mrunit/1.0.0/mrunit-1.0.0-hadoop2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="io.netty" name="netty">
+			<revision name="3.7.0.Final" status="release" pubdate="20130905222826" resolver="public" artresolver="main" homepage="http://netty.io/" downloaded="false" searched="false" default="false" conf="master" position="18">
+				<license name="Apache License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="6666" time="0" location="C:\Users\jiyu\.ivy2\cache\io.netty\netty\ivy-3.7.0.Final.xml" searched="false" original-local-location="C:\Users\jiyu\.ivy2\cache\io.netty\netty\ivy-3.7.0.Final.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/io/netty/netty/3.7.0.Final/netty-3.7.0.Final.pom"/>
+				<caller organisation="org.apache.solr" name="morphlines-core" conf="test" rev="3.7.0.Final" rev-constraint-default="3.7.0.Final" rev-constraint-dynamic="3.7.0.Final" callerrev="working@dwarf"/>
+				<artifacts>
+					<artifact name="netty" type="bundle" ext="jar" status="no" details="" size="1208356" time="0" location="C:\Users\jiyu\.ivy2\cache\io.netty\netty\bundles\netty-3.7.0.Final.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/io/netty/netty/3.7.0.Final/netty-3.7.0.Final.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.objenesis" name="objenesis">
+			<revision name="1.2" status="release" pubdate="20090827065019" resolver="default" artresolver="main" homepage="http://objenesis.googlecode.com/svn/docs/index.html" downloaded="false" searched="false" default="false" conf="master" position="17">
+				<metadata-artifact status="no" details="" size="3378" time="0" location="C:\Users\jiyu\.ivy2\cache\org.objenesis\objenesis\ivy-1.2.xml" searched="false" original-local-location="C:\Users\jiyu\.ivy2\cache\org.objenesis\objenesis\ivy-1.2.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/objenesis/objenesis/1.2/objenesis-1.2.pom"/>
+				<caller organisation="org.apache.solr" name="morphlines-core" conf="test" rev="1.2" rev-constraint-default="1.2" rev-constraint-dynamic="1.2" callerrev="working@dwarf"/>
+				<artifacts>
+					<artifact name="objenesis" type="jar" ext="jar" status="no" details="" size="36046" time="0" location="C:\Users\jiyu\.ivy2\cache\org.objenesis\objenesis\jars\objenesis-1.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/objenesis/objenesis/1.2/objenesis-1.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.hadoop" name="hadoop-mapreduce-client-jobclient">
+			<revision name="2.6.0" status="release" pubdate="20141114065021" resolver="public" artresolver="main" homepage="" downloaded="false" searched="false" default="false" conf="master" position="14">
+				<metadata-artifact status="no" details="" size="49954" time="0" location="C:\Users\jiyu\.ivy2\cache\org.apache.hadoop\hadoop-mapreduce-client-jobclient\ivy-2.6.0.xml" searched="false" original-local-location="C:\Users\jiyu\.ivy2\cache\org.apache.hadoop\hadoop-mapreduce-client-jobclient\ivy-2.6.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-jobclient/2.6.0/hadoop-mapreduce-client-jobclient-2.6.0.pom"/>
+				<caller organisation="org.apache.solr" name="morphlines-core" conf="test" rev="2.6.0" rev-constraint-default="2.6.0" rev-constraint-dynamic="2.6.0" callerrev="working@dwarf"/>
+				<artifacts>
+					<artifact name="hadoop-mapreduce-client-jobclient" type="test" ext="jar" extra-classifier="tests" status="no" details="" size="1494341" time="0" location="C:\Users\jiyu\.ivy2\cache\org.apache.hadoop\hadoop-mapreduce-client-jobclient\tests\hadoop-mapreduce-client-jobclient-2.6.0-tests.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-jobclient/2.6.0/hadoop-mapreduce-client-jobclient-2.6.0-tests.jar"/>
+					</artifact>
+					<artifact name="hadoop-mapreduce-client-jobclient" type="jar" ext="jar" status="no" details="" size="37225" time="0" location="C:\Users\jiyu\.ivy2\cache\org.apache.hadoop\hadoop-mapreduce-client-jobclient\jars\hadoop-mapreduce-client-jobclient-2.6.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-jobclient/2.6.0/hadoop-mapreduce-client-jobclient-2.6.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.hadoop" name="hadoop-mapreduce-client-hs">
+			<revision name="2.6.0" status="release" pubdate="20141114065010" resolver="public" artresolver="main" homepage="" downloaded="false" searched="false" default="false" conf="master" position="10">
+				<metadata-artifact status="no" details="" size="48654" time="0" location="C:\Users\jiyu\.ivy2\cache\org.apache.hadoop\hadoop-mapreduce-client-hs\ivy-2.6.0.xml" searched="false" original-local-location="C:\Users\jiyu\.ivy2\cache\org.apache.hadoop\hadoop-mapreduce-client-hs\ivy-2.6.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-hs/2.6.0/hadoop-mapreduce-client-hs-2.6.0.pom"/>
+				<caller organisation="org.apache.solr" name="morphlines-core" conf="test" rev="2.6.0" rev-constraint-default="2.6.0" rev-constraint-dynamic="2.6.0" callerrev="working@dwarf"/>
+				<artifacts>
+					<artifact name="hadoop-mapreduce-client-hs" type="jar" ext="jar" status="no" details="" size="233873" time="0" location="C:\Users\jiyu\.ivy2\cache\org.apache.hadoop\hadoop-mapreduce-client-hs\jars\hadoop-mapreduce-client-hs-2.6.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-hs/2.6.0/hadoop-mapreduce-client-hs-2.6.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.hadoop" name="hadoop-mapreduce-client-app">
+			<revision name="2.6.0" status="release" pubdate="20141114064953" resolver="public" artresolver="main" homepage="" downloaded="false" searched="false" default="false" conf="master" position="8">
+				<metadata-artifact status="no" details="" size="49404" time="0" location="C:\Users\jiyu\.ivy2\cache\org.apache.hadoop\hadoop-mapreduce-client-app\ivy-2.6.0.xml" searched="false" original-local-location="C:\Users\jiyu\.ivy2\cache\org.apache.hadoop\hadoop-mapreduce-client-app\ivy-2.6.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-app/2.6.0/hadoop-mapreduce-client-app-2.6.0.pom"/>
+				<caller organisation="org.apache.solr" name="morphlines-core" conf="test" rev="2.6.0" rev-constraint-default="2.6.0" rev-constraint-dynamic="2.6.0" callerrev="working@dwarf"/>
+				<artifacts>
+					<artifact name="hadoop-mapreduce-client-app" type="jar" ext="jar" status="no" details="" size="504309" time="0" location="C:\Users\jiyu\.ivy2\cache\org.apache.hadoop\hadoop-mapreduce-client-app\jars\hadoop-mapreduce-client-app-2.6.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-app/2.6.0/hadoop-mapreduce-client-app-2.6.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.hadoop" name="hadoop-mapreduce-client-shuffle">
+			<revision name="2.6.0" status="release" pubdate="20141114064937" resolver="public" artresolver="main" homepage="" downloaded="false" searched="false" default="false" conf="master" position="12">
+				<metadata-artifact status="no" details="" size="48082" time="0" location="C:\Users\jiyu\.ivy2\cache\org.apache.hadoop\hadoop-mapreduce-client-shuffle\ivy-2.6.0.xml" searched="false" original-local-location="C:\Users\jiyu\.ivy2\cache\org.apache.hadoop\hadoop-mapreduce-client-shuffle\ivy-2.6.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-shuffle/2.6.0/hadoop-mapreduce-client-shuffle-2.6.0.pom"/>
+				<caller organisation="org.apache.solr" name="morphlines-core" conf="test" rev="2.6.0" rev-constraint-default="2.6.0" rev-constraint-dynamic="2.6.0" callerrev="working@dwarf"/>
+				<artifacts>
+					<artifact name="hadoop-mapreduce-client-shuffle" type="jar" ext="jar" status="no" details="" size="44362" time="0" location="C:\Users\jiyu\.ivy2\cache\org.apache.hadoop\hadoop-mapreduce-client-shuffle\jars\hadoop-mapreduce-client-shuffle-2.6.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-shuffle/2.6.0/hadoop-mapreduce-client-shuffle-2.6.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.hadoop" name="hadoop-mapreduce-client-common">
+			<revision name="2.6.0" status="release" pubdate="20141114064927" resolver="public" artresolver="main" homepage="" downloaded="false" searched="false" default="false" conf="master" position="9">
+				<metadata-artifact status="no" details="" size="48062" time="0" location="C:\Users\jiyu\.ivy2\cache\org.apache.hadoop\hadoop-mapreduce-client-common\ivy-2.6.0.xml" searched="false" original-local-location="C:\Users\jiyu\.ivy2\cache\org.apache.hadoop\hadoop-mapreduce-client-common\ivy-2.6.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-common/2.6.0/hadoop-mapreduce-client-common-2.6.0.pom"/>
+				<caller organisation="org.apache.solr" name="morphlines-core" conf="test" rev="2.6.0" rev-constraint-default="2.6.0" rev-constraint-dynamic="2.6.0" callerrev="working@dwarf"/>
+				<artifacts>
+					<artifact name="hadoop-mapreduce-client-common" type="jar" ext="jar" status="no" details="" size="664918" time="0" location="C:\Users\jiyu\.ivy2\cache\org.apache.hadoop\hadoop-mapreduce-client-common\jars\hadoop-mapreduce-client-common-2.6.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-common/2.6.0/hadoop-mapreduce-client-common-2.6.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.hadoop" name="hadoop-yarn-client">
+			<revision name="2.6.0" status="release" pubdate="20141114064751" resolver="public" artresolver="main" homepage="" downloaded="false" searched="false" default="false" conf="master" position="4">
+				<metadata-artifact status="no" details="" size="46424" time="0" location="C:\Users\jiyu\.ivy2\cache\org.apache.hadoop\hadoop-yarn-client\ivy-2.6.0.xml" searched="false" original-local-location="C:\Users\jiyu\.ivy2\cache\org.apache.hadoop\hadoop-yarn-client\ivy-2.6.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-client/2.6.0/hadoop-yarn-client-2.6.0.pom"/>
+				<caller organisation="org.apache.solr" name="morphlines-core" conf="test" rev="2.6.0" rev-constraint-default="2.6.0" rev-constraint-dynamic="2.6.0" callerrev="working@dwarf"/>
+				<artifacts>
+					<artifact name="hadoop-yarn-client" type="jar" ext="jar" status="no" details="" size="127986" time="0" location="C:\Users\jiyu\.ivy2\cache\org.apache.hadoop\hadoop-yarn-client\jars\hadoop-yarn-client-2.6.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-client/2.6.0/hadoop-yarn-client-2.6.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.hadoop" name="hadoop-yarn-server-tests">
+			<revision name="2.6.0" status="release" pubdate="20141114064737" resolver="public" artresolver="main" homepage="" downloaded="false" searched="false" default="false" conf="master" position="5">
+				<metadata-artifact status="no" details="" size="47889" time="0" location="C:\Users\jiyu\.ivy2\cache\org.apache.hadoop\hadoop-yarn-server-tests\ivy-2.6.0.xml" searched="false" original-local-location="C:\Users\jiyu\.ivy2\cache\org.apache.hadoop\hadoop-yarn-server-tests\ivy-2.6.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-server-tests/2.6.0/hadoop-yarn-server-tests-2.6.0.pom"/>
+				<caller organisation="org.apache.solr" name="morphlines-core" conf="test" rev="2.6.0" rev-constraint-default="2.6.0" rev-constraint-dynamic="2.6.0" callerrev="working@dwarf"/>
+				<artifacts>
+					<artifact name="hadoop-yarn-server-tests" type="test" ext="jar" extra-classifier="tests" status="no" details="" size="52495" time="0" location="C:\Users\jiyu\.ivy2\cache\org.apache.hadoop\hadoop-yarn-server-tests\tests\hadoop-yarn-server-tests-2.6.0-tests.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-server-tests/2.6.0/hadoop-yarn-server-tests-2.6.0-tests.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.hadoop" name="hadoop-yarn-server-nodemanager">
+			<revision name="2.6.0" status="release" pubdate="20141114064637" resolver="public" artresolver="main" homepage="" downloaded="false" searched="false" default="false" conf="master" position="7">
+				<metadata-artifact status="no" details="" size="49953" time="0" location="C:\Users\jiyu\.ivy2\cache\org.apache.hadoop\hadoop-yarn-server-nodemanager\ivy-2.6.0.xml" searched="false" original-local-location="C:\Users\jiyu\.ivy2\cache\org.apache.hadoop\hadoop-yarn-server-nodemanager\ivy-2.6.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-server-nodemanager/2.6.0/hadoop-yarn-server-nodemanager-2.6.0.pom"/>
+				<caller organisation="org.apache.solr" name="morphlines-core" conf="test" rev="2.6.0" rev-constraint-default="2.6.0" rev-constraint-dynamic="2.6.0" callerrev="working@dwarf"/>
+				<artifacts>
+					<artifact name="hadoop-yarn-server-nodemanager" type="jar" ext="jar" status="no" details="" size="638330" time="0" location="C:\Users\jiyu\.ivy2\cache\org.apache.hadoop\hadoop-yarn-server-nodemanager\jars\hadoop-yarn-server-nodemanager-2.6.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-server-nodemanager/2.6.0/hadoop-yarn-server-nodemanager-2.6.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.hadoop" name="hadoop-yarn-server-resourcemanager">
+			<revision name="2.6.0" status="release" pubdate="20141114064724" resolver="public" artresolver="main" homepage="" downloaded="false" searched="false" default="false" conf="master" position="11">
+				<metadata-artifact status="no" details="" size="52411" time="0" location="C:\Users\jiyu\.ivy2\cache\org.apache.hadoop\hadoop-yarn-server-resourcemanager\ivy-2.6.0.xml" searched="false" original-local-location="C:\Users\jiyu\.ivy2\cache\org.apache.hadoop\hadoop-yarn-server-resourcemanager\ivy-2.6.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-server-resourcemanager/2.6.0/hadoop-yarn-server-resourcemanager-2.6.0.pom"/>
+				<caller organisation="org.apache.solr" name="morphlines-core" conf="test" rev="2.6.0" rev-constraint-default="2.6.0" rev-constraint-dynamic="2.6.0" callerrev="working@dwarf"/>
+				<artifacts>
+					<artifact name="hadoop-yarn-server-resourcemanager" type="jar" ext="jar" status="no" details="" size="1134377" time="0" location="C:\Users\jiyu\.ivy2\cache\org.apache.hadoop\hadoop-yarn-server-resourcemanager\jars\hadoop-yarn-server-resourcemanager-2.6.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-server-resourcemanager/2.6.0/hadoop-yarn-server-resourcemanager-2.6.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.hadoop" name="hadoop-yarn-server-web-proxy">
+			<revision name="2.6.0" status="release" pubdate="20141114064646" resolver="public" artresolver="main" homepage="" downloaded="false" searched="false" default="false" conf="master" position="13">
+				<metadata-artifact status="no" details="" size="47784" time="0" location="C:\Users\jiyu\.ivy2\cache\org.apache.hadoop\hadoop-yarn-server-web-proxy\ivy-2.6.0.xml" searched="false" original-local-location="C:\Users\jiyu\.ivy2\cache\org.apache.hadoop\hadoop-yarn-server-web-proxy\ivy-2.6.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-server-web-proxy/2.6.0/hadoop-yarn-server-web-proxy-2.6.0.pom"/>
+				<caller organisation="org.apache.solr" name="morphlines-core" conf="test" rev="2.6.0" rev-constraint-default="2.6.0" rev-constraint-dynamic="2.6.0" callerrev="working@dwarf"/>
+				<artifacts>
+					<artifact name="hadoop-yarn-server-web-proxy" type="jar" ext="jar" status="no" details="" size="28501" time="0" location="C:\Users\jiyu\.ivy2\cache\org.apache.hadoop\hadoop-yarn-server-web-proxy\jars\hadoop-yarn-server-web-proxy-2.6.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-server-web-proxy/2.6.0/hadoop-yarn-server-web-proxy-2.6.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.hadoop" name="hadoop-yarn-server-common">
+			<revision name="2.6.0" status="release" pubdate="20141114064616" resolver="public" artresolver="main" homepage="" downloaded="false" searched="false" default="false" conf="master" position="6">
+				<metadata-artifact status="no" details="" size="47517" time="0" location="C:\Users\jiyu\.ivy2\cache\org.apache.hadoop\hadoop-yarn-server-common\ivy-2.6.0.xml" searched="false" original-local-location="C:\Users\jiyu\.ivy2\cache\org.apache.hadoop\hadoop-yarn-server-common\ivy-2.6.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-server-common/2.6.0/hadoop-yarn-server-common-2.6.0.pom"/>
+				<caller organisation="org.apache.solr" name="morphlines-core" conf="test" rev="2.6.0" rev-constraint-default="2.6.0" rev-constraint-dynamic="2.6.0" callerrev="working@dwarf"/>
+				<artifacts>
+					<artifact name="hadoop-yarn-server-common" type="jar" ext="jar" status="no" details="" size="289619" time="0" location="C:\Users\jiyu\.ivy2\cache\org.apache.hadoop\hadoop-yarn-server-common\jars\hadoop-yarn-server-common-2.6.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-server-common/2.6.0/hadoop-yarn-server-common-2.6.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.hadoop" name="hadoop-mapreduce-client-core">
+			<revision name="2.6.0" status="release" pubdate="20141114064858" resolver="public" artresolver="main" homepage="" downloaded="false" searched="false" default="false" conf="master" position="1">
+				<metadata-artifact status="no" details="" size="46256" time="0" location="C:\Users\jiyu\.ivy2\cache\org.apache.hadoop\hadoop-mapreduce-client-core\ivy-2.6.0.xml" searched="false" original-local-location="C:\Users\jiyu\.ivy2\cache\org.apache.hadoop\hadoop-mapreduce-client-core\ivy-2.6.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-core/2.6.0/hadoop-mapreduce-client-core-2.6.0.pom"/>
+				<caller organisation="org.apache.solr" name="morphlines-core" conf="test" rev="2.6.0" rev-constraint-default="2.6.0" rev-constraint-dynamic="2.6.0" callerrev="working@dwarf"/>
+				<artifacts>
+					<artifact name="hadoop-mapreduce-client-core" type="jar" ext="jar" status="no" details="" size="1509399" time="0" location="C:\Users\jiyu\.ivy2\cache\org.apache.hadoop\hadoop-mapreduce-client-core\jars\hadoop-mapreduce-client-core-2.6.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-mapreduce-client-core/2.6.0/hadoop-mapreduce-client-core-2.6.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-collections" name="commons-collections">
+			<revision name="3.2.1" status="release" pubdate="20080415090924" resolver="default" artresolver="main" homepage="http://commons.apache.org/collections/" downloaded="false" searched="false" default="false" conf="master" position="21">
+				<metadata-artifact status="no" details="" size="4929" time="0" location="C:\Users\jiyu\.ivy2\cache\commons-collections\commons-collections\ivy-3.2.1.xml" searched="false" original-local-location="C:\Users\jiyu\.ivy2\cache\commons-collections\commons-collections\ivy-3.2.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.pom"/>
+				<caller organisation="org.apache.solr" name="morphlines-core" conf="test" rev="3.2.1" rev-constraint-default="3.2.1" rev-constraint-dynamic="3.2.1" callerrev="working@dwarf"/>
+				<artifacts>
+					<artifact name="commons-collections" type="jar" ext="jar" status="no" details="" size="575389" time="0" location="C:\Users\jiyu\.ivy2\cache\commons-collections\commons-collections\jars\commons-collections-3.2.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.hadoop" name="hadoop-yarn-common">
+			<revision name="2.6.0" status="release" pubdate="20141114064554" resolver="public" artresolver="main" homepage="" downloaded="false" searched="false" default="false" conf="master" position="2">
+				<metadata-artifact status="no" details="" size="47617" time="0" location="C:\Users\jiyu\.ivy2\cache\org.apache.hadoop\hadoop-yarn-common\ivy-2.6.0.xml" searched="false" original-local-location="C:\Users\jiyu\.ivy2\cache\org.apache.hadoop\hadoop-yarn-common\ivy-2.6.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-common/2.6.0/hadoop-yarn-common-2.6.0.pom"/>
+				<caller organisation="org.apache.solr" name="morphlines-core" conf="test" rev="2.6.0" rev-constraint-default="2.6.0" rev-constraint-dynamic="2.6.0" callerrev="working@dwarf"/>
+				<artifacts>
+					<artifact name="hadoop-yarn-common" type="jar" ext="jar" status="no" details="" size="1602059" time="0" location="C:\Users\jiyu\.ivy2\cache\org.apache.hadoop\hadoop-yarn-common\jars\hadoop-yarn-common-2.6.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-common/2.6.0/hadoop-yarn-common-2.6.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.sun.jersey.contribs" name="jersey-guice">
+			<revision name="1.9" status="release" pubdate="20110902192154" resolver="default" artresolver="main" homepage="" downloaded="false" searched="false" default="false" conf="master" position="29">
+				<metadata-artifact status="no" details="" size="6053" time="0" location="C:\Users\jiyu\.ivy2\cache\com.sun.jersey.contribs\jersey-guice\ivy-1.9.xml" searched="false" original-local-location="C:\Users\jiyu\.ivy2\cache\com.sun.jersey.contribs\jersey-guice\ivy-1.9.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/sun/jersey/contribs/jersey-guice/1.9/jersey-guice-1.9.pom"/>
+				<caller organisation="org.apache.solr" name="morphlines-core" conf="test" rev="1.9" rev-constraint-default="1.9" rev-constraint-dynamic="1.9" callerrev="working@dwarf"/>
+				<artifacts>
+					<artifact name="jersey-guice" type="jar" ext="jar" status="no" details="" size="14786" time="0" location="C:\Users\jiyu\.ivy2\cache\com.sun.jersey.contribs\jersey-guice\jars\jersey-guice-1.9.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/sun/jersey/contribs/jersey-guice/1.9/jersey-guice-1.9.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.sun.jersey" name="jersey-json">
+			<revision name="1.9" status="release" pubdate="20110902192700" resolver="default" artresolver="main" homepage="" downloaded="false" searched="false" default="false" conf="master" position="31">
+				<metadata-artifact status="no" details="" size="6019" time="0" location="C:\Users\jiyu\.ivy2\cache\com.sun.jersey\jersey-json\ivy-1.9.xml" searched="false" original-local-location="C:\Users\jiyu\.ivy2\cache\com.sun.jersey\jersey-json\ivy-1.9.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/sun/jersey/jersey-json/1.9/jersey-json-1.9.pom"/>
+				<caller organisation="org.apache.solr" name="morphlines-core" conf="test" rev="1.9" rev-constraint-default="1.9" rev-constraint-dynamic="1.9" callerrev="working@dwarf"/>
+				<artifacts>
+					<artifact name="jersey-json" type="bundle" ext="jar" status="no" details="" size="147952" time="0" location="C:\Users\jiyu\.ivy2\cache\com.sun.jersey\jersey-json\bundles\jersey-json-1.9.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/sun/jersey/jersey-json/1.9/jersey-json-1.9.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.sun.xml.bind" name="jaxb-impl">
+			<revision name="2.2.3-1" status="release" pubdate="20110118183154" resolver="default" artresolver="main" homepage="http://jaxb.java.net/" downloaded="false" searched="false" default="false" conf="master" position="16">
+				<license name="CDDL 1.1" url="https://glassfish.java.net/public/CDDL+GPL_1_1.html"/>
+				<license name="GPL2 w/ CPE" url="https://glassfish.java.net/public/CDDL+GPL_1_1.html"/>
+				<metadata-artifact status="no" details="" size="2862" time="0" location="C:\Users\jiyu\.ivy2\cache\com.sun.xml.bind\jaxb-impl\ivy-2.2.3-1.xml" searched="false" original-local-location="C:\Users\jiyu\.ivy2\cache\com.sun.xml.bind\jaxb-impl\ivy-2.2.3-1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/sun/xml/bind/jaxb-impl/2.2.3-1/jaxb-impl-2.2.3-1.pom"/>
+				<caller organisation="org.apache.solr" name="morphlines-core" conf="test" rev="2.2.3-1" rev-constraint-default="2.2.3-1" rev-constraint-dynamic="2.2.3-1" callerrev="working@dwarf"/>
+				<artifacts>
+					<artifact name="jaxb-impl" type="jar" ext="jar" status="no" details="" size="890168" time="0" location="C:\Users\jiyu\.ivy2\cache\com.sun.xml.bind\jaxb-impl\jars\jaxb-impl-2.2.3-1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/sun/xml/bind/jaxb-impl/2.2.3-1/jaxb-impl-2.2.3-1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.sun.jersey" name="jersey-server">
+			<revision name="1.9" status="release" pubdate="20110902191728" resolver="default" artresolver="main" homepage="" downloaded="false" searched="false" default="false" conf="master" position="32">
+				<metadata-artifact status="no" details="" size="6502" time="0" location="C:\Users\jiyu\.ivy2\cache\com.sun.jersey\jersey-server\ivy-1.9.xml" searched="false" original-local-location="C:\Users\jiyu\.ivy2\cache\com.sun.jersey\jersey-server\ivy-1.9.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/sun/jersey/jersey-server/1.9/jersey-server-1.9.pom"/>
+				<caller organisation="org.apache.solr" name="morphlines-core" conf="test" rev="1.9" rev-constraint-default="1.9" rev-constraint-dynamic="1.9" callerrev="working@dwarf"/>
+				<artifacts>
+					<artifact name="jersey-server" type="bundle" ext="jar" status="no" details="" size="713089" time="0" location="C:\Users\jiyu\.ivy2\cache\com.sun.jersey\jersey-server\bundles\jersey-server-1.9.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/sun/jersey/jersey-server/1.9/jersey-server-1.9.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.inject.extensions" name="guice-servlet">
+			<revision name="3.0" status="release" pubdate="20110326022252" resolver="default" artresolver="main" homepage="" downloaded="false" searched="false" default="false" conf="master" position="35">
+				<metadata-artifact status="no" details="" size="3900" time="0" location="C:\Users\jiyu\.ivy2\cache\com.google.inject.extensions\guice-servlet\ivy-3.0.xml" searched="false" original-local-location="C:\Users\jiyu\.ivy2\cache\com.google.inject.extensions\guice-servlet\ivy-3.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/inject/extensions/guice-servlet/3.0/guice-servlet-3.0.pom"/>
+				<caller organisation="org.apache.solr" name="morphlines-core" conf="test" rev="3.0" rev-constraint-default="3.0" rev-constraint-dynamic="3.0" callerrev="working@dwarf"/>
+				<artifacts>
+					<artifact name="guice-servlet" type="jar" ext="jar" status="no" details="" size="65012" time="0" location="C:\Users\jiyu\.ivy2\cache\com.google.inject.extensions\guice-servlet\jars\guice-servlet-3.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/inject/extensions/guice-servlet/3.0/guice-servlet-3.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.inject" name="guice">
+			<revision name="3.0" status="release" pubdate="20110326021947" resolver="default" artresolver="main" homepage="" downloaded="false" searched="false" default="false" conf="master" position="34">
+				<metadata-artifact status="no" details="" size="4174" time="0" location="C:\Users\jiyu\.ivy2\cache\com.google.inject\guice\ivy-3.0.xml" searched="false" original-local-location="C:\Users\jiyu\.ivy2\cache\com.google.inject\guice\ivy-3.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/inject/guice/3.0/guice-3.0.pom"/>
+				<caller organisation="org.apache.solr" name="morphlines-core" conf="test" rev="3.0" rev-constraint-default="3.0" rev-constraint-dynamic="3.0" callerrev="working@dwarf"/>
+				<artifacts>
+					<artifact name="guice" type="jar" ext="jar" status="no" details="" size="710492" time="0" location="C:\Users\jiyu\.ivy2\cache\com.google.inject\guice\jars\guice-3.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/inject/guice/3.0/guice-3.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="aopalliance" name="aopalliance">
+			<revision name="1.0" status="release" pubdate="20070227064340" resolver="default" artresolver="main" homepage="http://aopalliance.sourceforge.net" downloaded="false" searched="false" default="false" conf="master" position="15">
+				<license name="Public Domain"/>
+				<metadata-artifact status="no" details="" size="2513" time="0" location="C:\Users\jiyu\.ivy2\cache\aopalliance\aopalliance\ivy-1.0.xml" searched="false" original-local-location="C:\Users\jiyu\.ivy2\cache\aopalliance\aopalliance\ivy-1.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/aopalliance/aopalliance/1.0/aopalliance-1.0.pom"/>
+				<caller organisation="org.apache.solr" name="morphlines-core" conf="test" rev="1.0" rev-constraint-default="1.0" rev-constraint-dynamic="1.0" callerrev="working@dwarf"/>
+				<artifacts>
+					<artifact name="aopalliance" type="jar" ext="jar" status="no" details="" size="4467" time="0" location="C:\Users\jiyu\.ivy2\cache\aopalliance\aopalliance\jars\aopalliance-1.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/aopalliance/aopalliance/1.0/aopalliance-1.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="javax.inject" name="javax.inject">
+			<revision name="1" status="release" pubdate="20091014073500" resolver="default" artresolver="main" homepage="http://code.google.com/p/atinject/" downloaded="false" searched="false" default="false" conf="master" position="36">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2604" time="0" location="C:\Users\jiyu\.ivy2\cache\javax.inject\javax.inject\ivy-1.xml" searched="false" original-local-location="C:\Users\jiyu\.ivy2\cache\javax.inject\javax.inject\ivy-1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/javax/inject/javax.inject/1/javax.inject-1.pom"/>
+				<caller organisation="org.apache.solr" name="morphlines-core" conf="test" rev="1" rev-constraint-default="1" rev-constraint-dynamic="1" callerrev="working@dwarf"/>
+				<artifacts>
+					<artifact name="javax.inject" type="jar" ext="jar" status="no" details="" size="2497" time="0" location="C:\Users\jiyu\.ivy2\cache\javax.inject\javax.inject\jars\javax.inject-1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/javax/inject/javax.inject/1/javax.inject-1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.codehaus.jackson" name="jackson-jaxrs">
+			<revision name="1.9.13" status="release" pubdate="20130715110844" resolver="default" artresolver="main" homepage="http://jackson.codehaus.org" downloaded="false" searched="false" default="false" conf="master" position="26">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<license name="GNU Lesser General Public License (LGPL), Version 2.1" url="http://www.fsf.org/licensing/licenses/lgpl.txt"/>
+				<metadata-artifact status="no" details="" size="3168" time="0" location="C:\Users\jiyu\.ivy2\cache\org.codehaus.jackson\jackson-jaxrs\ivy-1.9.13.xml" searched="false" original-local-location="C:\Users\jiyu\.ivy2\cache\org.codehaus.jackson\jackson-jaxrs\ivy-1.9.13.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/codehaus/jackson/jackson-jaxrs/1.9.13/jackson-jaxrs-1.9.13.pom"/>
+				<caller organisation="org.apache.solr" name="morphlines-core" conf="test" rev="1.9.13" rev-constraint-default="1.9.13" rev-constraint-dynamic="1.9.13" callerrev="working@dwarf"/>
+				<artifacts>
+					<artifact name="jackson-jaxrs" type="jar" ext="jar" status="no" details="" size="18336" time="0" location="C:\Users\jiyu\.ivy2\cache\org.codehaus.jackson\jackson-jaxrs\jars\jackson-jaxrs-1.9.13.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/codehaus/jackson/jackson-jaxrs/1.9.13/jackson-jaxrs-1.9.13.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.codehaus.jackson" name="jackson-mapper-asl">
+			<revision name="1.9.13" status="release" pubdate="20130715110750" resolver="default" artresolver="main" homepage="http://jackson.codehaus.org" downloaded="false" searched="false" default="false" conf="master" position="27">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2894" time="0" location="C:\Users\jiyu\.ivy2\cache\org.codehaus.jackson\jackson-mapper-asl\ivy-1.9.13.xml" searched="false" original-local-location="C:\Users\jiyu\.ivy2\cache\org.codehaus.jackson\jackson-mapper-asl\ivy-1.9.13.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.9.13/jackson-mapper-asl-1.9.13.pom"/>
+				<caller organisation="org.apache.solr" name="morphlines-core" conf="test" rev="1.9.13" rev-constraint-default="1.9.13" rev-constraint-dynamic="1.9.13" callerrev="working@dwarf"/>
+				<artifacts>
+					<artifact name="jackson-mapper-asl" type="jar" ext="jar" status="no" details="" size="780664" time="0" location="C:\Users\jiyu\.ivy2\cache\org.codehaus.jackson\jackson-mapper-asl\jars\jackson-mapper-asl-1.9.13.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/codehaus/jackson/jackson-mapper-asl/1.9.13/jackson-mapper-asl-1.9.13.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.codehaus.jackson" name="jackson-core-asl">
+			<revision name="1.9.13" status="release" pubdate="20130715110730" resolver="default" artresolver="main" homepage="http://jackson.codehaus.org" downloaded="false" searched="false" default="false" conf="master" position="28">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2670" time="0" location="C:\Users\jiyu\.ivy2\cache\org.codehaus.jackson\jackson-core-asl\ivy-1.9.13.xml" searched="false" original-local-location="C:\Users\jiyu\.ivy2\cache\org.codehaus.jackson\jackson-core-asl\ivy-1.9.13.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/1.9.13/jackson-core-asl-1.9.13.pom"/>
+				<caller organisation="org.apache.solr" name="morphlines-core" conf="test" rev="1.9.13" rev-constraint-default="1.9.13" rev-constraint-dynamic="1.9.13" callerrev="working@dwarf"/>
+				<artifacts>
+					<artifact name="jackson-core-asl" type="jar" ext="jar" status="no" details="" size="232248" time="0" location="C:\Users\jiyu\.ivy2\cache\org.codehaus.jackson\jackson-core-asl\jars\jackson-core-asl-1.9.13.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/codehaus/jackson/jackson-core-asl/1.9.13/jackson-core-asl-1.9.13.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.sun.jersey" name="jersey-core">
+			<revision name="1.9" status="release" pubdate="20110902191655" resolver="default" artresolver="main" homepage="" downloaded="false" searched="false" default="false" conf="master" position="30">
+				<metadata-artifact status="no" details="" size="5653" time="0" location="C:\Users\jiyu\.ivy2\cache\com.sun.jersey\jersey-core\ivy-1.9.xml" searched="false" original-local-location="C:\Users\jiyu\.ivy2\cache\com.sun.jersey\jersey-core\ivy-1.9.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/sun/jersey/jersey-core/1.9/jersey-core-1.9.pom"/>
+				<caller organisation="org.apache.solr" name="morphlines-core" conf="test" rev="1.9" rev-constraint-default="1.9" rev-constraint-dynamic="1.9" callerrev="working@dwarf"/>
+				<artifacts>
+					<artifact name="jersey-core" type="bundle" ext="jar" status="no" details="" size="458739" time="0" location="C:\Users\jiyu\.ivy2\cache\com.sun.jersey\jersey-core\bundles\jersey-core-1.9.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/sun/jersey/jersey-core/1.9/jersey-core-1.9.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.hadoop" name="hadoop-yarn-api">
+			<revision name="2.6.0" status="release" pubdate="20141114064516" resolver="public" artresolver="main" homepage="" downloaded="false" searched="false" default="false" conf="master" position="3">
+				<metadata-artifact status="no" details="" size="43500" time="0" location="C:\Users\jiyu\.ivy2\cache\org.apache.hadoop\hadoop-yarn-api\ivy-2.6.0.xml" searched="false" original-local-location="C:\Users\jiyu\.ivy2\cache\org.apache.hadoop\hadoop-yarn-api\ivy-2.6.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-api/2.6.0/hadoop-yarn-api-2.6.0.pom"/>
+				<caller organisation="org.apache.solr" name="morphlines-core" conf="test" rev="2.6.0" rev-constraint-default="2.6.0" rev-constraint-dynamic="2.6.0" callerrev="working@dwarf"/>
+				<artifacts>
+					<artifact name="hadoop-yarn-api" type="jar" ext="jar" status="no" details="" size="1870176" time="0" location="C:\Users\jiyu\.ivy2\cache\org.apache.hadoop\hadoop-yarn-api\jars\hadoop-yarn-api-2.6.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-yarn-api/2.6.0/hadoop-yarn-api-2.6.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.kitesdk" name="kite-morphlines-core">
+			<revision name="0.12.1" status="release" pubdate="20140319071426" resolver="default" artresolver="main" homepage="" downloaded="false" searched="false" default="false" conf="master" position="0">
+				<metadata-artifact status="no" details="" size="29495" time="0" location="C:\Users\jiyu\.ivy2\cache\org.kitesdk\kite-morphlines-core\ivy-0.12.1.xml" searched="false" original-local-location="C:\Users\jiyu\.ivy2\cache\org.kitesdk\kite-morphlines-core\ivy-0.12.1.xml.original" origin-is-local="false" origin-location="http://repository.cloudera.com/artifactory/repo/org/kitesdk/kite-morphlines-core/0.12.1/kite-morphlines-core-0.12.1.pom"/>
+				<caller organisation="org.apache.solr" name="morphlines-core" conf="test" rev="0.12.1" rev-constraint-default="0.12.1" rev-constraint-dynamic="0.12.1" callerrev="working@dwarf"/>
+				<artifacts>
+					<artifact name="kite-morphlines-core" type="test" ext="jar" extra-classifier="tests" status="no" details="" size="1423310" time="0" location="C:\Users\jiyu\.ivy2\cache\org.kitesdk\kite-morphlines-core\tests\kite-morphlines-core-0.12.1-tests.jar">
+						<origin-location is-local="false" location="http://repository.cloudera.com/artifactory/repo/org/kitesdk/kite-morphlines-core/0.12.1/kite-morphlines-core-0.12.1-tests.jar"/>
+					</artifact>
+					<artifact name="kite-morphlines-core" type="jar" ext="jar" status="no" details="" size="249449" time="0" location="C:\Users\jiyu\.ivy2\cache\org.kitesdk\kite-morphlines-core\jars\kite-morphlines-core-0.12.1.jar">
+						<origin-location is-local="false" location="http://repository.cloudera.com/artifactory/repo/org/kitesdk/kite-morphlines-core/0.12.1/kite-morphlines-core-0.12.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

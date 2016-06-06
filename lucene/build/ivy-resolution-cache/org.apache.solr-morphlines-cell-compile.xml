@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="org.apache.solr"
+		module="morphlines-cell"
+		revision="working@dwarf"
+		conf="compile"
+		confs="compile"
+		date="20160603184008"/>
+	<dependencies>
+		<module organisation="org.kitesdk" name="kite-morphlines-twitter">
+			<revision name="0.12.1" status="release" pubdate="20140319071643" resolver="default" artresolver="main" homepage="" downloaded="false" searched="false" default="false" conf="master" position="3">
+				<metadata-artifact status="no" details="" size="29399" time="0" location="C:\Users\jiyu\.ivy2\cache\org.kitesdk\kite-morphlines-twitter\ivy-0.12.1.xml" searched="false" original-local-location="C:\Users\jiyu\.ivy2\cache\org.kitesdk\kite-morphlines-twitter\ivy-0.12.1.xml.original" origin-is-local="false" origin-location="http://repository.cloudera.com/artifactory/repo/org/kitesdk/kite-morphlines-twitter/0.12.1/kite-morphlines-twitter-0.12.1.pom"/>
+				<caller organisation="org.apache.solr" name="morphlines-cell" conf="compile" rev="0.12.1" rev-constraint-default="0.12.1" rev-constraint-dynamic="0.12.1" callerrev="working@dwarf"/>
+				<artifacts>
+					<artifact name="kite-morphlines-twitter" type="jar" ext="jar" status="no" details="" size="7614" time="0" location="C:\Users\jiyu\.ivy2\cache\org.kitesdk\kite-morphlines-twitter\jars\kite-morphlines-twitter-0.12.1.jar">
+						<origin-location is-local="false" location="http://repository.cloudera.com/artifactory/repo/org/kitesdk/kite-morphlines-twitter/0.12.1/kite-morphlines-twitter-0.12.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.kitesdk" name="kite-morphlines-json">
+			<revision name="0.12.1" status="release" pubdate="20140319071501" resolver="default" artresolver="main" homepage="" downloaded="false" searched="false" default="false" conf="master" position="2">
+				<metadata-artifact status="no" details="" size="29387" time="0" location="C:\Users\jiyu\.ivy2\cache\org.kitesdk\kite-morphlines-json\ivy-0.12.1.xml" searched="false" original-local-location="C:\Users\jiyu\.ivy2\cache\org.kitesdk\kite-morphlines-json\ivy-0.12.1.xml.original" origin-is-local="false" origin-location="http://repository.cloudera.com/artifactory/repo/org/kitesdk/kite-morphlines-json/0.12.1/kite-morphlines-json-0.12.1.pom"/>
+				<caller organisation="org.apache.solr" name="morphlines-cell" conf="compile" rev="0.12.1" rev-constraint-default="0.12.1" rev-constraint-dynamic="0.12.1" callerrev="working@dwarf"/>
+				<artifacts>
+					<artifact name="kite-morphlines-json" type="jar" ext="jar" status="no" details="" size="10546" time="0" location="C:\Users\jiyu\.ivy2\cache\org.kitesdk\kite-morphlines-json\jars\kite-morphlines-json-0.12.1.jar">
+						<origin-location is-local="false" location="http://repository.cloudera.com/artifactory/repo/org/kitesdk/kite-morphlines-json/0.12.1/kite-morphlines-json-0.12.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.kitesdk" name="kite-morphlines-tika-decompress">
+			<revision name="0.12.1" status="release" pubdate="20140319071629" resolver="default" artresolver="main" homepage="" downloaded="false" searched="false" default="false" conf="master" position="1">
+				<metadata-artifact status="no" details="" size="29446" time="0" location="C:\Users\jiyu\.ivy2\cache\org.kitesdk\kite-morphlines-tika-decompress\ivy-0.12.1.xml" searched="false" original-local-location="C:\Users\jiyu\.ivy2\cache\org.kitesdk\kite-morphlines-tika-decompress\ivy-0.12.1.xml.original" origin-is-local="false" origin-location="http://repository.cloudera.com/artifactory/repo/org/kitesdk/kite-morphlines-tika-decompress/0.12.1/kite-morphlines-tika-decompress-0.12.1.pom"/>
+				<caller organisation="org.apache.solr" name="morphlines-cell" conf="compile" rev="0.12.1" rev-constraint-default="0.12.1" rev-constraint-dynamic="0.12.1" callerrev="working@dwarf"/>
+				<artifacts>
+					<artifact name="kite-morphlines-tika-decompress" type="jar" ext="jar" status="no" details="" size="10973" time="0" location="C:\Users\jiyu\.ivy2\cache\org.kitesdk\kite-morphlines-tika-decompress\jars\kite-morphlines-tika-decompress-0.12.1.jar">
+						<origin-location is-local="false" location="http://repository.cloudera.com/artifactory/repo/org/kitesdk/kite-morphlines-tika-decompress/0.12.1/kite-morphlines-tika-decompress-0.12.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.kitesdk" name="kite-morphlines-tika-core">
+			<revision name="0.12.1" status="release" pubdate="20140319071615" resolver="default" artresolver="main" homepage="" downloaded="false" searched="false" default="false" conf="master" position="0">
+				<metadata-artifact status="no" details="" size="29274" time="0" location="C:\Users\jiyu\.ivy2\cache\org.kitesdk\kite-morphlines-tika-core\ivy-0.12.1.xml" searched="false" original-local-location="C:\Users\jiyu\.ivy2\cache\org.kitesdk\kite-morphlines-tika-core\ivy-0.12.1.xml.original" origin-is-local="false" origin-location="http://repository.cloudera.com/artifactory/repo/org/kitesdk/kite-morphlines-tika-core/0.12.1/kite-morphlines-tika-core-0.12.1.pom"/>
+				<caller organisation="org.apache.solr" name="morphlines-cell" conf="compile" rev="0.12.1" rev-constraint-default="0.12.1" rev-constraint-dynamic="0.12.1" callerrev="working@dwarf"/>
+				<artifacts>
+					<artifact name="kite-morphlines-tika-core" type="jar" ext="jar" status="no" details="" size="7415" time="0" location="C:\Users\jiyu\.ivy2\cache\org.kitesdk\kite-morphlines-tika-core\jars\kite-morphlines-tika-core-0.12.1.jar">
+						<origin-location is-local="false" location="http://repository.cloudera.com/artifactory/repo/org/kitesdk/kite-morphlines-tika-core/0.12.1/kite-morphlines-tika-core-0.12.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

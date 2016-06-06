@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="org.apache.solr"
+		module="core"
+		revision="working@dwarf"
+		conf="compile.hadoop"
+		confs="compile, compile.hadoop"
+		date="20160603183944"/>
+	<dependencies>
+		<module organisation="com.googlecode.concurrentlinkedhashmap" name="concurrentlinkedhashmap-lru">
+			<revision name="1.2" status="release" pubdate="20110521090632" resolver="default" artresolver="main" homepage="http://code.google.com/p/concurrentlinkedhashmap" downloaded="false" searched="false" default="false" conf="master" position="7">
+				<license name="Apache" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="4323" time="0" location="C:\Users\jiyu\.ivy2\cache\com.googlecode.concurrentlinkedhashmap\concurrentlinkedhashmap-lru\ivy-1.2.xml" searched="false" original-local-location="C:\Users\jiyu\.ivy2\cache\com.googlecode.concurrentlinkedhashmap\concurrentlinkedhashmap-lru\ivy-1.2.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/googlecode/concurrentlinkedhashmap/concurrentlinkedhashmap-lru/1.2/concurrentlinkedhashmap-lru-1.2.pom"/>
+				<caller organisation="org.apache.solr" name="core" conf="compile.hadoop" rev="1.2" rev-constraint-default="1.2" rev-constraint-dynamic="1.2" callerrev="working@dwarf"/>
+				<artifacts>
+					<artifact name="concurrentlinkedhashmap-lru" type="jar" ext="jar" status="no" details="" size="53011" time="0" location="C:\Users\jiyu\.ivy2\cache\com.googlecode.concurrentlinkedhashmap\concurrentlinkedhashmap-lru\jars\concurrentlinkedhashmap-lru-1.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/googlecode/concurrentlinkedhashmap/concurrentlinkedhashmap-lru/1.2/concurrentlinkedhashmap-lru-1.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.hadoop" name="hadoop-hdfs">
+			<revision name="2.6.0" status="release" pubdate="20141114064150" resolver="public" artresolver="main" homepage="" downloaded="false" searched="false" default="false" conf="master" position="1">
+				<metadata-artifact status="no" details="" size="49413" time="0" location="C:\Users\jiyu\.ivy2\cache\org.apache.hadoop\hadoop-hdfs\ivy-2.6.0.xml" searched="false" original-local-location="C:\Users\jiyu\.ivy2\cache\org.apache.hadoop\hadoop-hdfs\ivy-2.6.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-hdfs/2.6.0/hadoop-hdfs-2.6.0.pom"/>
+				<caller organisation="org.apache.solr" name="core" conf="compile.hadoop" rev="2.6.0" rev-constraint-default="2.6.0" rev-constraint-dynamic="2.6.0" callerrev="working@dwarf"/>
+				<artifacts>
+					<artifact name="hadoop-hdfs" type="jar" ext="jar" status="no" details="" size="7822670" time="0" location="C:\Users\jiyu\.ivy2\cache\org.apache.hadoop\hadoop-hdfs\jars\hadoop-hdfs-2.6.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-hdfs/2.6.0/hadoop-hdfs-2.6.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.hadoop" name="hadoop-common">
+			<revision name="2.6.0" status="release" pubdate="20141114063736" resolver="public" artresolver="main" homepage="" downloaded="false" searched="false" default="false" conf="master" position="0">
+				<metadata-artifact status="no" details="" size="51916" time="0" location="C:\Users\jiyu\.ivy2\cache\org.apache.hadoop\hadoop-common\ivy-2.6.0.xml" searched="false" original-local-location="C:\Users\jiyu\.ivy2\cache\org.apache.hadoop\hadoop-common\ivy-2.6.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-common/2.6.0/hadoop-common-2.6.0.pom"/>
+				<caller organisation="org.apache.solr" name="core" conf="compile.hadoop" rev="2.6.0" rev-constraint-default="2.6.0" rev-constraint-dynamic="2.6.0" callerrev="working@dwarf"/>
+				<artifacts>
+					<artifact name="hadoop-common" type="jar" ext="jar" status="no" details="" size="3360985" time="0" location="C:\Users\jiyu\.ivy2\cache\org.apache.hadoop\hadoop-common\jars\hadoop-common-2.6.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-common/2.6.0/hadoop-common-2.6.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.htrace" name="htrace-core">
+			<revision name="3.0.4" status="release" pubdate="20140419063047" resolver="public" artresolver="main" homepage="https://github.com/cloudera/htrace" downloaded="false" searched="false" default="false" conf="master" position="8">
+				<metadata-artifact status="no" details="" size="4768" time="0" location="C:\Users\jiyu\.ivy2\cache\org.htrace\htrace-core\ivy-3.0.4.xml" searched="false" original-local-location="C:\Users\jiyu\.ivy2\cache\org.htrace\htrace-core\ivy-3.0.4.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/htrace/htrace-core/3.0.4/htrace-core-3.0.4.pom"/>
+				<caller organisation="org.apache.solr" name="core" conf="compile.hadoop" rev="3.0.4" rev-constraint-default="3.0.4" rev-constraint-dynamic="3.0.4" callerrev="working@dwarf"/>
+				<artifacts>
+					<artifact name="htrace-core" type="jar" ext="jar" status="no" details="" size="31212" time="0" location="C:\Users\jiyu\.ivy2\cache\org.htrace\htrace-core\jars\htrace-core-3.0.4.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/htrace/htrace-core/3.0.4/htrace-core-3.0.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.hadoop" name="hadoop-auth">
+			<revision name="2.6.0" status="release" pubdate="20141114063537" resolver="public" artresolver="main" homepage="" downloaded="false" searched="false" default="false" conf="master" position="3">
+				<metadata-artifact status="no" details="" size="44027" time="0" location="C:\Users\jiyu\.ivy2\cache\org.apache.hadoop\hadoop-auth\ivy-2.6.0.xml" searched="false" original-local-location="C:\Users\jiyu\.ivy2\cache\org.apache.hadoop\hadoop-auth\ivy-2.6.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-auth/2.6.0/hadoop-auth-2.6.0.pom"/>
+				<caller organisation="org.apache.solr" name="core" conf="compile.hadoop" rev="2.6.0" rev-constraint-default="2.6.0" rev-constraint-dynamic="2.6.0" callerrev="working@dwarf"/>
+				<artifacts>
+					<artifact name="hadoop-auth" type="jar" ext="jar" status="no" details="" size="67167" time="0" location="C:\Users\jiyu\.ivy2\cache\org.apache.hadoop\hadoop-auth\jars\hadoop-auth-2.6.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-auth/2.6.0/hadoop-auth-2.6.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.google.protobuf" name="protobuf-java">
+			<revision name="2.5.0" status="release" pubdate="20130308081811" resolver="default" artresolver="main" homepage="http://code.google.com/p/protobuf" downloaded="false" searched="false" default="false" conf="master" position="6">
+				<license name="New BSD license" url="http://www.opensource.org/licenses/bsd-license.php"/>
+				<metadata-artifact status="no" details="" size="3227" time="0" location="C:\Users\jiyu\.ivy2\cache\com.google.protobuf\protobuf-java\ivy-2.5.0.xml" searched="false" original-local-location="C:\Users\jiyu\.ivy2\cache\com.google.protobuf\protobuf-java\ivy-2.5.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/2.5.0/protobuf-java-2.5.0.pom"/>
+				<caller organisation="org.apache.solr" name="core" conf="compile.hadoop" rev="2.5.0" rev-constraint-default="2.5.0" rev-constraint-dynamic="2.5.0" callerrev="working@dwarf"/>
+				<artifacts>
+					<artifact name="protobuf-java" type="bundle" ext="jar" status="no" details="" size="533455" time="0" location="C:\Users\jiyu\.ivy2\cache\com.google.protobuf\protobuf-java\bundles\protobuf-java-2.5.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/2.5.0/protobuf-java-2.5.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-configuration" name="commons-configuration">
+			<revision name="1.6" status="release" pubdate="20090205034444" resolver="default" artresolver="main" homepage="http://commons.apache.org/${pom.artifactId.substring(8)}/" downloaded="false" searched="false" default="false" conf="master" position="4">
+				<license name="The Apache Software License, Version 2.0" url="/LICENSE.txt"/>
+				<metadata-artifact status="no" details="" size="5813" time="0" location="C:\Users\jiyu\.ivy2\cache\commons-configuration\commons-configuration\ivy-1.6.xml" searched="false" original-local-location="C:\Users\jiyu\.ivy2\cache\commons-configuration\commons-configuration\ivy-1.6.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/commons-configuration/commons-configuration/1.6/commons-configuration-1.6.pom"/>
+				<caller organisation="org.apache.solr" name="core" conf="compile.hadoop" rev="1.6" rev-constraint-default="1.6" rev-constraint-dynamic="1.6" callerrev="working@dwarf"/>
+				<artifacts>
+					<artifact name="commons-configuration" type="jar" ext="jar" status="no" details="" size="298829" time="0" location="C:\Users\jiyu\.ivy2\cache\commons-configuration\commons-configuration\jars\commons-configuration-1.6.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-configuration/commons-configuration/1.6/commons-configuration-1.6.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="commons-collections" name="commons-collections">
+			<revision name="3.2.1" status="release" pubdate="20080415090924" resolver="default" artresolver="main" homepage="http://commons.apache.org/collections/" downloaded="false" searched="false" default="false" conf="master" position="5">
+				<metadata-artifact status="no" details="" size="4929" time="0" location="C:\Users\jiyu\.ivy2\cache\commons-collections\commons-collections\ivy-3.2.1.xml" searched="false" original-local-location="C:\Users\jiyu\.ivy2\cache\commons-collections\commons-collections\ivy-3.2.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.pom"/>
+				<caller organisation="org.apache.solr" name="core" conf="compile.hadoop" rev="3.2.1" rev-constraint-default="3.2.1" rev-constraint-dynamic="3.2.1" callerrev="working@dwarf"/>
+				<artifacts>
+					<artifact name="commons-collections" type="jar" ext="jar" status="no" details="" size="575389" time="0" location="C:\Users\jiyu\.ivy2\cache\commons-collections\commons-collections\jars\commons-collections-3.2.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.hadoop" name="hadoop-annotations">
+			<revision name="2.6.0" status="release" pubdate="20141114063457" resolver="public" artresolver="main" homepage="" downloaded="false" searched="false" default="false" conf="master" position="2">
+				<metadata-artifact status="no" details="" size="40230" time="0" location="C:\Users\jiyu\.ivy2\cache\org.apache.hadoop\hadoop-annotations\ivy-2.6.0.xml" searched="false" original-local-location="C:\Users\jiyu\.ivy2\cache\org.apache.hadoop\hadoop-annotations\ivy-2.6.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-annotations/2.6.0/hadoop-annotations-2.6.0.pom"/>
+				<caller organisation="org.apache.solr" name="core" conf="compile.hadoop" rev="2.6.0" rev-constraint-default="2.6.0" rev-constraint-dynamic="2.6.0" callerrev="working@dwarf"/>
+				<artifacts>
+					<artifact name="hadoop-annotations" type="jar" ext="jar" status="no" details="" size="17035" time="0" location="C:\Users\jiyu\.ivy2\cache\org.apache.hadoop\hadoop-annotations\jars\hadoop-annotations-2.6.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/hadoop/hadoop-annotations/2.6.0/hadoop-annotations-2.6.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="org.apache.lucene"
+		module="analyzers-uima"
+		revision="working@dwarf"
+		conf="compile"
+		confs="compile"
+		date="20160603183934"/>
+	<dependencies>
+		<module organisation="org.apache.uima" name="Tagger">
+			<revision name="2.3.1" status="release" pubdate="20110824220223" resolver="public" artresolver="main" homepage="${uimaWebsiteUrl}" downloaded="false" searched="false" default="false" conf="master" position="0">
+				<metadata-artifact status="no" details="" size="7383" time="0" location="C:\Users\jiyu\.ivy2\cache\org.apache.uima\Tagger\ivy-2.3.1.xml" searched="false" original-local-location="C:\Users\jiyu\.ivy2\cache\org.apache.uima\Tagger\ivy-2.3.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/uima/Tagger/2.3.1/Tagger-2.3.1.pom"/>
+				<caller organisation="org.apache.lucene" name="analyzers-uima" conf="compile" rev="2.3.1" rev-constraint-default="2.3.1" rev-constraint-dynamic="2.3.1" callerrev="working@dwarf"/>
+				<artifacts>
+					<artifact name="Tagger" type="jar" ext="jar" status="no" details="" size="5346263" time="0" location="C:\Users\jiyu\.ivy2\cache\org.apache.uima\Tagger\jars\Tagger-2.3.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/uima/Tagger/2.3.1/Tagger-2.3.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.uima" name="WhitespaceTokenizer">
+			<revision name="2.3.1" status="release" pubdate="20110824220120" resolver="public" artresolver="main" homepage="${uimaWebsiteUrl}" downloaded="false" searched="false" default="false" conf="master" position="1">
+				<metadata-artifact status="no" details="" size="7190" time="0" location="C:\Users\jiyu\.ivy2\cache\org.apache.uima\WhitespaceTokenizer\ivy-2.3.1.xml" searched="false" original-local-location="C:\Users\jiyu\.ivy2\cache\org.apache.uima\WhitespaceTokenizer\ivy-2.3.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/uima/WhitespaceTokenizer/2.3.1/WhitespaceTokenizer-2.3.1.pom"/>
+				<caller organisation="org.apache.lucene" name="analyzers-uima" conf="compile" rev="2.3.1" rev-constraint-default="2.3.1" rev-constraint-dynamic="2.3.1" callerrev="working@dwarf"/>
+				<artifacts>
+					<artifact name="WhitespaceTokenizer" type="jar" ext="jar" status="no" details="" size="13108" time="0" location="C:\Users\jiyu\.ivy2\cache\org.apache.uima\WhitespaceTokenizer\jars\WhitespaceTokenizer-2.3.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/uima/WhitespaceTokenizer/2.3.1/WhitespaceTokenizer-2.3.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.uima" name="uimaj-core">
+			<revision name="2.3.1" status="release" pubdate="20101207072926" resolver="public" artresolver="main" homepage="${uimaWebsiteUrl}" downloaded="false" searched="false" default="false" conf="master" position="2">
+				<metadata-artifact status="no" details="" size="7198" time="0" location="C:\Users\jiyu\.ivy2\cache\org.apache.uima\uimaj-core\ivy-2.3.1.xml" searched="false" original-local-location="C:\Users\jiyu\.ivy2\cache\org.apache.uima\uimaj-core\ivy-2.3.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/uima/uimaj-core/2.3.1/uimaj-core-2.3.1.pom"/>
+				<caller organisation="org.apache.lucene" name="analyzers-uima" conf="compile" rev="2.3.1" rev-constraint-default="2.3.1" rev-constraint-dynamic="2.3.1" callerrev="working@dwarf"/>
+				<artifacts>
+					<artifact name="uimaj-core" type="jar" ext="jar" status="no" details="" size="1278585" time="0" location="C:\Users\jiyu\.ivy2\cache\org.apache.uima\uimaj-core\jars\uimaj-core-2.3.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/uima/uimaj-core/2.3.1/uimaj-core-2.3.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

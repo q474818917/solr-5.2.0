@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="org.apache.solr"
+		module="core"
+		revision="working@dwarf"
+		conf="test"
+		confs="test, test.DfsMiniCluster, test.MiniKdc"
+		date="20160603183949"/>
+	<dependencies>
+		<module organisation="org.slf4j" name="jcl-over-slf4j">
+			<revision name="1.7.7" status="release" pubdate="20140404191411" resolver="public" artresolver="main" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="master" position="4">
+				<metadata-artifact status="no" details="" size="4978" time="0" location="C:\Users\jiyu\.ivy2\cache\org.slf4j\jcl-over-slf4j\ivy-1.7.7.xml" searched="false" original-local-location="C:\Users\jiyu\.ivy2\cache\org.slf4j\jcl-over-slf4j\ivy-1.7.7.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/slf4j/jcl-over-slf4j/1.7.7/jcl-over-slf4j-1.7.7.pom"/>
+				<caller organisation="org.apache.solr" name="core" conf="test" rev="1.7.7" rev-constraint-default="1.7.7" rev-constraint-dynamic="1.7.7" callerrev="working@dwarf"/>
+				<artifacts>
+					<artifact name="jcl-over-slf4j" type="jar" ext="jar" status="no" details="" size="16519" time="0" location="C:\Users\jiyu\.ivy2\cache\org.slf4j\jcl-over-slf4j\jars\jcl-over-slf4j-1.7.7.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/slf4j/jcl-over-slf4j/1.7.7/jcl-over-slf4j-1.7.7.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.easymock" name="easymock">
+			<revision name="3.0" status="release" pubdate="20100509030641" resolver="public" artresolver="main" homepage="" downloaded="false" searched="false" default="false" conf="master" position="1">
+				<metadata-artifact status="no" details="" size="3864" time="0" location="C:\Users\jiyu\.ivy2\cache\org.easymock\easymock\ivy-3.0.xml" searched="false" original-local-location="C:\Users\jiyu\.ivy2\cache\org.easymock\easymock\ivy-3.0.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/easymock/easymock/3.0/easymock-3.0.pom"/>
+				<caller organisation="org.apache.solr" name="core" conf="test" rev="3.0" rev-constraint-default="3.0" rev-constraint-dynamic="3.0" callerrev="working@dwarf"/>
+				<artifacts>
+					<artifact name="easymock" type="jar" ext="jar" status="no" details="" size="114128" time="0" location="C:\Users\jiyu\.ivy2\cache\org.easymock\easymock\jars\easymock-3.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/easymock/easymock/3.0/easymock-3.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.objenesis" name="objenesis">
+			<revision name="1.2" status="release" pubdate="20090827065019" resolver="default" artresolver="main" homepage="http://objenesis.googlecode.com/svn/docs/index.html" downloaded="false" searched="false" default="false" conf="master" position="3">
+				<metadata-artifact status="no" details="" size="3378" time="0" location="C:\Users\jiyu\.ivy2\cache\org.objenesis\objenesis\ivy-1.2.xml" searched="false" original-local-location="C:\Users\jiyu\.ivy2\cache\org.objenesis\objenesis\ivy-1.2.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/objenesis/objenesis/1.2/objenesis-1.2.pom"/>
+				<caller organisation="org.apache.solr" name="core" conf="test" rev="1.2" rev-constraint-default="1.2" rev-constraint-dynamic="1.2" callerrev="working@dwarf"/>
+				<artifacts>
+					<artifact name="objenesis" type="jar" ext="jar" status="no" details="" size="36046" time="0" location="C:\Users\jiyu\.ivy2\cache\org.objenesis\objenesis\jars\objenesis-1.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/objenesis/objenesis/1.2/objenesis-1.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="cglib" name="cglib-nodep">
+			<revision name="2.2" status="release" pubdate="20081202062832" resolver="public" artresolver="main" homepage="http://cglib.sourceforge.net/" downloaded="false" searched="false" default="false" conf="master" position="2">
+				<license name="ASF 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2724" time="0" location="C:\Users\jiyu\.ivy2\cache\cglib\cglib-nodep\ivy-2.2.xml" searched="false" original-local-location="C:\Users\jiyu\.ivy2\cache\cglib\cglib-nodep\ivy-2.2.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/cglib/cglib-nodep/2.2/cglib-nodep-2.2.pom"/>
+				<caller organisation="org.apache.solr" name="core" conf="test" rev="2.2" rev-constraint-default="2.2" rev-constraint-dynamic="2.2" callerrev="working@dwarf"/>
+				<artifacts>
+					<artifact name="cglib-nodep" type="jar" ext="jar" status="no" details="" size="322362" time="0" location="C:\Users\jiyu\.ivy2\cache\cglib\cglib-nodep\jars\cglib-nodep-2.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/cglib/cglib-nodep/2.2/cglib-nodep-2.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.commons" name="commons-math3">
+			<revision name="3.4.1" status="release" pubdate="20150109012810" resolver="default" artresolver="main" homepage="http://commons.apache.org/proper/commons-math/" downloaded="false" searched="false" default="false" conf="master" position="0">
+				<metadata-artifact status="no" details="" size="11666" time="0" location="C:\Users\jiyu\.ivy2\cache\org.apache.commons\commons-math3\ivy-3.4.1.xml" searched="false" original-local-location="C:\Users\jiyu\.ivy2\cache\org.apache.commons\commons-math3\ivy-3.4.1.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/commons/commons-math3/3.4.1/commons-math3-3.4.1.pom"/>
+				<caller organisation="org.apache.solr" name="core" conf="test" rev="3.4.1" rev-constraint-default="3.4.1" rev-constraint-dynamic="3.4.1" callerrev="working@dwarf"/>
+				<artifacts>
+					<artifact name="commons-math3" type="jar" ext="jar" status="no" details="" size="2035066" time="0" location="C:\Users\jiyu\.ivy2\cache\org.apache.commons\commons-math3\jars\commons-math3-3.4.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/commons/commons-math3/3.4.1/commons-math3-3.4.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

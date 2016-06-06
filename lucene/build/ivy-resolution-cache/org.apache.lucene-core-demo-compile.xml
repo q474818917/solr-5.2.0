@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="org.apache.lucene"
+		module="core-demo"
+		revision="working@dwarf"
+		conf="compile"
+		confs="compile"
+		date="20160603183937"/>
+	<dependencies>
+		<module organisation="javax.servlet" name="servlet-api">
+			<revision name="2.4" status="release" pubdate="20051109055835" resolver="public" artresolver="main" homepage="" downloaded="false" searched="false" default="false" conf="master" position="0">
+				<metadata-artifact status="no" details="" size="2413" time="0" location="C:\Users\jiyu\.ivy2\cache\javax.servlet\servlet-api\ivy-2.4.xml" searched="false" original-local-location="C:\Users\jiyu\.ivy2\cache\javax.servlet\servlet-api\ivy-2.4.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/javax/servlet/servlet-api/2.4/servlet-api-2.4.pom"/>
+				<caller organisation="org.apache.lucene" name="core-demo" conf="compile" rev="2.4" rev-constraint-default="2.4" rev-constraint-dynamic="2.4" callerrev="working@dwarf"/>
+				<artifacts>
+					<artifact name="servlet-api" type="jar" ext="jar" status="no" details="" size="97693" time="0" location="C:\Users\jiyu\.ivy2\cache\javax.servlet\servlet-api\jars\servlet-api-2.4.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/javax/servlet/servlet-api/2.4/servlet-api-2.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>
