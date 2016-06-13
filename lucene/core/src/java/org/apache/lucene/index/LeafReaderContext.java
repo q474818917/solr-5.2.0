@@ -22,6 +22,7 @@ import java.util.List;
 
 /**
  * {@link IndexReaderContext} for {@link LeafReader} instances.
+ * 每个LeafReaderContext对应着每个segment
  */
 public final class LeafReaderContext extends IndexReaderContext {
   /** The readers ord in the top-level's leaves array */

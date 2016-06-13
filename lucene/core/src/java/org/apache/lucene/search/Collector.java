@@ -25,26 +25,30 @@ import org.apache.lucene.index.LeafReaderContext;
  * <p>Expert: Collectors are primarily meant to be used to
  * gather raw results from a search, and implement sorting
  * or custom result filtering, collation, etc. </p>
- *
+ * 搜集原始结果，排序和过滤
+ * 
  * <p>Lucene's core collectors are derived from {@link Collector}
  * and {@link SimpleCollector}. Likely your application can
  * use one of these classes, or subclass {@link TopDocsCollector},
  * instead of implementing Collector directly:
- *
+ * 使用Collector和SimpleCollector或者子类TopDocsCollector
  * <ul>
- *
+ *   抽象基类，根据条件获取top N的docs
  *   <li>{@link TopDocsCollector} is an abstract base class
  *   that assumes you will retrieve the top N docs,
  *   according to some criteria, after collection is
  *   done.  </li>
- *
+ *   
+ *   TopScoreDocCollector具体子类，根据score和docID，不能使用sort排序，
+ *   使用最多的Collector
  *   <li>{@link TopScoreDocCollector} is a concrete subclass
  *   {@link TopDocsCollector} and sorts according to score +
  *   docID.  This is used internally by the {@link
  *   IndexSearcher} search methods that do not take an
  *   explicit {@link Sort}. It is likely the most frequently
  *   used collector.</li>
- *
+ *  
+ *   根据指定的field的排序，搜索时显示的使用sort
  *   <li>{@link TopFieldCollector} subclasses {@link
  *   TopDocsCollector} and sorts according to a specified
  *   {@link Sort} object (sort by field).  This is used
@@ -60,12 +64,14 @@ import org.apache.lucene.index.LeafReaderContext;
  *   is &lt;= 0.0</li>
  *
  * </ul>
- *
+ * 
+ * 5.0之前Collector和LeafCollector接口是合并的，现在是拆分出来了
  * @lucene.experimental
  */
 public interface Collector {
 
   /**
+   * 收集给定的context, LeafReaderContext对应着索引中的segment
    * Create a new {@link LeafCollector collector} to collect the given context.
    *
    * @param context

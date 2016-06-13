@@ -57,6 +57,12 @@ import org.apache.lucene.util.ToStringUtils;
  * pq.add(new Term("body", "one"), 0);
  * pq.add(new Term("body", "two"), 1);
  * </pre>
+ * 
+ * PhraseQuery针对于"技术"这类的关键字搜索，相当于组合搜索，
+ * 可以使用BooleanQuery和其它的Term结合查询，多个terms使用BooleanQuery去执行一个复杂的query
+ * 单个term："test" "hello" ,phrase则是被双引号包含的query："test hello"
+ * slop：默认值是0，相当于within或者near搜索
+ * position：没添加一个Term，position值++
  */
 public class PhraseQuery extends Query {
   private String field;

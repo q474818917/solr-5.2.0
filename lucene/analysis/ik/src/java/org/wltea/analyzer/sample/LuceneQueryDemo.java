@@ -7,19 +7,24 @@ import org.apache.lucene.analysis.standard.StandardAnalyzer;
 import org.apache.lucene.atlas.dwarf.AltasSimilarity;
 import org.apache.lucene.index.DirectoryReader;
 import org.apache.lucene.index.IndexReader;
+import org.apache.lucene.index.LeafReaderContext;
 import org.apache.lucene.index.Term;
 import org.apache.lucene.queryparser.classic.ParseException;
 import org.apache.lucene.queryparser.classic.QueryParser;
 import org.apache.lucene.search.BooleanClause.Occur;
 import org.apache.lucene.search.BooleanQuery;
+import org.apache.lucene.search.Collector;
 import org.apache.lucene.search.IndexSearcher;
+import org.apache.lucene.search.LeafCollector;
 import org.apache.lucene.search.PhraseQuery;
 import org.apache.lucene.search.Query;
 import org.apache.lucene.search.ScoreDoc;
+import org.apache.lucene.search.Scorer;
 import org.apache.lucene.search.TermQuery;
 import org.apache.lucene.search.TopDocs;
 import org.apache.lucene.store.Directory;
 import org.apache.lucene.store.FSDirectory;
+import org.apache.lucene.util.BitSet;
 
 /*
  * Licensed to the Apache Software Foundation (ASF) under one or more
@@ -57,13 +62,13 @@ public class LuceneQueryDemo {
   
   public static void main(String[] args) {
     /*LuceneQueryDemo.TermQueryClass tqc = new LuceneQueryDemo.TermQueryClass();
-    tqc.query();
+    tqc.query();*/
     
     LuceneQueryDemo.PhraseQueryClass pqc = new LuceneQueryDemo.PhraseQueryClass();
-    pqc.query();*/
+    pqc.query();
     
-    LuceneQueryDemo.QueryParserClass qpc = new LuceneQueryDemo.QueryParserClass();
-    qpc.query();
+    /*LuceneQueryDemo.QueryParserClass qpc = new LuceneQueryDemo.QueryParserClass();
+    qpc.query();*/
     
   }
   
@@ -112,14 +117,44 @@ public class LuceneQueryDemo {
        * eg:介绍一下，技术不是很强
        * */
       PhraseQuery query = new PhraseQuery();
-      query.add(new Term("name", "介绍"));
-      query.add(new Term("name", "不是"));
-      query.setSlop(4);
+      //query.add(new Term("post", "心理咨询"));
+      query.add(new Term("post", "心"));
+      query.add(new Term("post", "询"));
+      query.setSlop(3);
+      /*try {
+        System.out.println(indexSearcher.search(query, 10).totalHits);
+      } catch (IOException e) {
+        throw new RuntimeException();
+      }*/
       try {
-        System.out.println(indexSearcher.explain(query, 0));
+        indexSearcher.search(query, new Collector() {
+
+          public LeafCollector getLeafCollector(LeafReaderContext context)
+              throws IOException {
+            final int docBase = context.docBase;
+            return new LeafCollector() {
+
+              // ignore scorer
+              public void setScorer(Scorer scorer) throws IOException {
+              }
+
+              public void collect(int doc) throws IOException {
+                System.out.println(docBase + "->" + doc);
+              }
+
+            };
+          }
+
+          @Override
+          public boolean needsScores() {
+            return false;
+          }
+
+        });
       } catch (IOException e) {
         throw new RuntimeException();
       }
+
     }
   }
   

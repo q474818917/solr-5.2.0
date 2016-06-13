@@ -102,7 +102,8 @@ public final class Explanation {
   /** Render an explanation as text. */
   @Override
   public String toString() {
-    return toString(0);
+    //return toString(0);
+    return toHtml();
   }
 
   private String toString(int depth) {
@@ -125,20 +126,21 @@ public final class Explanation {
   /** Render an explanation as HTML. */
   public String toHtml() {
     StringBuilder buffer = new StringBuilder();
-    buffer.append("<ul>\n");
+    buffer.append("<ul>");
 
     buffer.append("<li>");
     buffer.append(getSummary());
-    buffer.append("<br />\n");
+    buffer.append("<br />");
 
     Explanation[] details = getDetails();
     for (int i = 0 ; i < details.length; i++) {
       buffer.append(details[i].toHtml());
     }
 
-    buffer.append("</li>\n");
-    buffer.append("</ul>\n");
+    buffer.append("</li>");
+    buffer.append("</ul>");
 
     return buffer.toString();
   }
+  
 }
