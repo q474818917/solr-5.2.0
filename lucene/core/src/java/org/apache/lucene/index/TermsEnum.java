@@ -31,6 +31,8 @@ import org.apache.lucene.util.BytesRefIterator;
  * PostingsEnum} for the current term ({@link
  * #postings}.
  * 
+ * 本质是一个迭代器
+ * 
  * <p>Term enumerations are always ordered by
  * BytesRef.compareTo, which is Unicode sort
  * order if the terms are UTF-8 bytes.  Each term in the

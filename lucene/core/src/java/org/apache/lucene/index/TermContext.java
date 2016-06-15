@@ -73,6 +73,8 @@ public final class TermContext {
   }
 
   /**
+   * 查询Term和所有段的Context：创建该term的TermContext
+   * 检索term核心入口
    * Creates a {@link TermContext} from a top-level {@link IndexReaderContext} and the
    * given {@link Term}. This method will lookup the given term in all context's leaf readers 
    * and register each of the readers containing the term in the returned {@link TermContext}
@@ -87,6 +89,7 @@ public final class TermContext {
     final BytesRef bytes = term.bytes();
     final TermContext perReaderTermState = new TermContext(context);
     //if (DEBUG) System.out.println("prts.build term=" + term);
+    //遍历每个segment
     for (final LeafReaderContext ctx : context.leaves()) {
       //if (DEBUG) System.out.println("  r=" + leaves[i].reader);
       final Terms terms = ctx.reader().terms(field);

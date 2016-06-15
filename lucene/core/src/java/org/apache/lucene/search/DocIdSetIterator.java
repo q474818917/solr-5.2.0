@@ -22,6 +22,7 @@ import java.io.IOException;
 import org.apache.lucene.search.spans.Spans;
 
 /**
+ * DocId集合迭代器
  * This abstract class defines methods to iterate over a set of non-decreasing
  * doc ids. Note that this class assumes it iterates on doc Ids, and therefore
  * {@link #NO_MORE_DOCS} is set to {@value #NO_MORE_DOCS} in order to be used as

@@ -121,7 +121,7 @@ public abstract class Weight {
    * need to override this; the default implementation
    * pulls a normal {@link Scorer} and iterates and
    * collects the resulting hits.
-   *
+   * 将命中的植入Collector
    * @param context
    *          the {@link org.apache.lucene.index.LeafReaderContext} for which to return the {@link Scorer}.
    * @param acceptDocs

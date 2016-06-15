@@ -23,7 +23,7 @@ import java.util.Collections;
 
 /**
  * Expert: Common scoring functionality for different types of queries.
- *
+ * 构建Scorer树：不同的Query不同的打分
  * <p>
  * A <code>Scorer</code> iterates over documents matching a
  * query in increasing order of doc Id.

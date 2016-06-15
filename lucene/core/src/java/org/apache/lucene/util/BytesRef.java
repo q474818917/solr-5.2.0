@@ -23,7 +23,9 @@ import java.util.Comparator;
 /** Represents byte[], as a slice (offset + length) into an
  *  existing byte[].  The {@link #bytes} member should never be null;
  *  use {@link #EMPTY_BYTES} if necessary.
- *
+ *  
+ *  一个带offset和length的byte数组 
+ *  
  * <p><b>Important note:</b> Unless otherwise noted, Lucene uses this class to
  * represent terms that are encoded as <b>UTF8</b> bytes in the index. To
  * convert them to a Java {@link String} (which is UTF16), use {@link #utf8ToString}.

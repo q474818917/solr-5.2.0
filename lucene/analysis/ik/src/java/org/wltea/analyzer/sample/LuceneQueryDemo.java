@@ -118,8 +118,8 @@ public class LuceneQueryDemo {
        * */
       PhraseQuery query = new PhraseQuery();
       //query.add(new Term("post", "心理咨询"));
-      query.add(new Term("post", "心"));
-      query.add(new Term("post", "询"));
+      query.add(new Term("post", "歌手"));
+      //query.add(new Term("post", "询"));
       query.setSlop(3);
       /*try {
         System.out.println(indexSearcher.search(query, 10).totalHits);

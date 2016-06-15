@@ -21,6 +21,7 @@ import java.io.IOException;
 
 /**
  * A simple iterator interface for {@link BytesRef} iteration.
+ * BytesRef迭代器
  */
 public interface BytesRefIterator {
 

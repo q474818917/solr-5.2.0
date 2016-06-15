@@ -33,6 +33,7 @@ import org.apache.lucene.util.Bits;
 
 /**
  * IndexReader implementation over a single segment. 
+ * 单一的段读取器
  * <p>
  * Instances pointing to the same segment (but with different deletes, etc)
  * may share the same core data.
